@@ -1,0 +1,26 @@
+{
+  "name": "f-plus/millennium-php",
+  "type": "library",
+  "description": "Online booking API client for Millennium Spa & Salon",
+  "keywords": [
+    "millennium",
+    "soap",
+    "booking",
+    "online-booking",
+    "harms"
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "FPlus\\Millennium\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FPlus\\Millennium\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-soap": "*"
+  }
+}
