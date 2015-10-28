@@ -1,0 +1,39 @@
+<?php
+
+namespace FPlus\Millennium\Soap\Message;
+
+class GetClassesResponse
+{
+    /**
+     * @var ArrayOfService
+     */
+    protected $GetClassesResult = null;
+
+    /**
+     * @param ArrayOfService $GetClassesResult
+     */
+    public function __construct($GetClassesResult)
+    {
+        $this->GetClassesResult = $GetClassesResult;
+    }
+
+    /**
+     * @return ArrayOfService
+     */
+    public function getGetClassesResult()
+    {
+        return $this->GetClassesResult;
+    }
+
+    /**
+     * @param ArrayOfService $GetClassesResult
+     *
+     * @return \Millennium\Soap\GetClassesResponse
+     */
+    public function setGetClassesResult($GetClassesResult)
+    {
+        $this->GetClassesResult = $GetClassesResult;
+
+        return $this;
+    }
+}
