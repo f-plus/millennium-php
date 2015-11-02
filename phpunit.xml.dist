@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit bootstrap="vendor/autoload.php">
+    <php>
+        <env name="MILLENNIUM_URL" value="http://localhost/onlinebooking/clientservice.svc" />
+        <env name="MILLENNIUM_USERNAME" value="yourusername" />
+        <env name="MILLENNIUM_PASSWORD" value="yourpassword" />
+    </php>
     <testsuites>
         <testsuite name="millennium-php Test Suite">
             <directory>tests</directory>

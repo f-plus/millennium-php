@@ -5,10 +5,25 @@
 **millennium-php** is a PHP client for the online booking system of [Harms Millennium Spa & Salon](http://www.harms-software.com/millennium/spasalon/).
 
 
-## Installing
+## Installation
 
 ```bash
 composer require f-plus/millennium-php
+```
+
+
+## Usage
+
+```php
+$client = new \FPlus\Millennium\Client('http://yourdomain.com/OnlineBooking/ClientService.svc');
+
+$salonInfo = $client->getSalonInfo();
+
+if (($session = $client->authenticate('username', 'password')) !== null) {
+    $client->setSession($session);
+
+    // book appointments, get client history, ...
+}
 ```
 
 ## Disclaimer
