@@ -7,7 +7,7 @@ class GetClientCardsResponse
     /**
      * @var ArrayOfClientCard
      */
-    protected $GetClientCardsResult = null;
+    protected $GetClientCardsResult;
 
     /**
      * @param ArrayOfClientCard $GetClientCardsResult
@@ -28,7 +28,7 @@ class GetClientCardsResponse
     /**
      * @param ArrayOfClientCard $GetClientCardsResult
      *
-     * @return \Millennium\Soap\GetClientCardsResponse
+     * @return GetClientCardsResponse
      */
     public function setGetClientCardsResult($GetClientCardsResult)
     {

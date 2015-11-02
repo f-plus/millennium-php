@@ -7,7 +7,7 @@ class ArrayOfCreditCardType
     /**
      * @var CreditCardType[]
      */
-    protected $CreditCardType = null;
+    protected $CreditCardType;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfCreditCardType
     /**
      * @param CreditCardType[] $CreditCardType
      *
-     * @return \Millennium\Soap\ArrayOfCreditCardType
+     * @return ArrayOfCreditCardType
      */
     public function setCreditCardType(array $CreditCardType = null)
     {

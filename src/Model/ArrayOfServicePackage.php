@@ -7,7 +7,7 @@ class ArrayOfServicePackage
     /**
      * @var ServicePackage[]
      */
-    protected $ServicePackage = null;
+    protected $ServicePackage;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfServicePackage
     /**
      * @param ServicePackage[] $ServicePackage
      *
-     * @return \Millennium\Soap\ArrayOfServicePackage
+     * @return ArrayOfServicePackage
      */
     public function setServicePackage(array $ServicePackage = null)
     {

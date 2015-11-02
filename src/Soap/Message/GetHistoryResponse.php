@@ -5,34 +5,34 @@ namespace FPlus\Millennium\Soap\Message;
 class GetHistoryResponse
 {
     /**
-     * @var ArrayOfKeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ
+     * @var ClientHistoryMap
      */
-    protected $GetHistoryResult = null;
+    protected $GetHistoryResult;
 
     /**
-     * @param ArrayOfKeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ $GetHistoryResult
+     * @param ClientHistoryMap $GetHistoryResult
      */
-    public function __construct($GetHistoryResult)
+    public function __construct($Result)
     {
-        $this->GetHistoryResult = $GetHistoryResult;
+        $this->GetHistoryResult = $Result;
     }
 
     /**
-     * @return ArrayOfKeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ
+     * @return ClientHistoryMap
      */
-    public function getGetHistoryResult()
+    public function getResult()
     {
         return $this->GetHistoryResult;
     }
 
     /**
-     * @param ArrayOfKeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ $GetHistoryResult
+     * @param ClientHistoryMap $Result
      *
-     * @return \Millennium\Soap\GetHistoryResponse
+     * @return GetHistoryResponse
      */
-    public function setGetHistoryResult($GetHistoryResult)
+    public function setResult($Result)
     {
-        $this->GetHistoryResult = $GetHistoryResult;
+        $this->GetHistoryResult = $Result;
 
         return $this;
     }

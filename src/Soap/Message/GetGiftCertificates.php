@@ -7,7 +7,7 @@ class GetGiftCertificates
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @param int $clientId
@@ -28,7 +28,7 @@ class GetGiftCertificates
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\GetGiftCertificates
+     * @return GetGiftCertificates
      */
     public function setClientId($clientId)
     {

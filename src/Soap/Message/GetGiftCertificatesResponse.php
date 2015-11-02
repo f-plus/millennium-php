@@ -7,7 +7,7 @@ class GetGiftCertificatesResponse
     /**
      * @var ArrayOfGC
      */
-    protected $GetGiftCertificatesResult = null;
+    protected $GetGiftCertificatesResult;
 
     /**
      * @param ArrayOfGC $GetGiftCertificatesResult
@@ -28,7 +28,7 @@ class GetGiftCertificatesResponse
     /**
      * @param ArrayOfGC $GetGiftCertificatesResult
      *
-     * @return \Millennium\Soap\GetGiftCertificatesResponse
+     * @return GetGiftCertificatesResponse
      */
     public function setGetGiftCertificatesResult($GetGiftCertificatesResult)
     {

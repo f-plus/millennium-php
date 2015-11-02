@@ -7,72 +7,72 @@ class OnlineBookingConfig
     /**
      * @var int
      */
-    protected $ClientReferralId = null;
+    protected $ClientReferralId;
 
     /**
      * @var float
      */
-    protected $DefaultGCAmount = null;
+    protected $DefaultGCAmount;
 
     /**
      * @var int
      */
-    protected $DrawerId = null;
+    protected $DrawerId;
 
     /**
      * @var int
      */
-    protected $GCAppointmentTypeId = null;
+    protected $GCAppointmentTypeId;
 
     /**
      * @var int
      */
-    protected $GCReferralId = null;
+    protected $GCReferralId;
 
     /**
      * @var int
      */
-    protected $MerchantAccountId = null;
+    protected $MerchantAccountId;
 
     /**
      * @var int
      */
-    protected $NewRequestId = null;
+    protected $NewRequestId;
 
     /**
      * @var int
      */
-    protected $NonRequestId = null;
+    protected $NonRequestId;
 
     /**
      * @var int
      */
-    protected $RepeatRequestId = null;
+    protected $RepeatRequestId;
 
     /**
      * @var int
      */
-    protected $SellGCEmployeeId = null;
+    protected $SellGCEmployeeId;
 
     /**
      * @var int
      */
-    protected $SellGCType = null;
+    protected $SellGCType;
 
     /**
      * @var float
      */
-    protected $ShippingFee = null;
+    protected $ShippingFee;
 
     /**
      * @var int
      */
-    protected $ShippingServiceId = null;
+    protected $ShippingServiceId;
 
     /**
      * @var bool
      */
-    protected $ValidateCC = null;
+    protected $ValidateCC;
 
     public function __construct()
     {
@@ -89,7 +89,7 @@ class OnlineBookingConfig
     /**
      * @param int $ClientReferralId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setClientReferralId($ClientReferralId)
     {
@@ -109,7 +109,7 @@ class OnlineBookingConfig
     /**
      * @param float $DefaultGCAmount
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setDefaultGCAmount($DefaultGCAmount)
     {
@@ -129,7 +129,7 @@ class OnlineBookingConfig
     /**
      * @param int $DrawerId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setDrawerId($DrawerId)
     {
@@ -149,7 +149,7 @@ class OnlineBookingConfig
     /**
      * @param int $GCAppointmentTypeId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setGCAppointmentTypeId($GCAppointmentTypeId)
     {
@@ -169,7 +169,7 @@ class OnlineBookingConfig
     /**
      * @param int $GCReferralId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setGCReferralId($GCReferralId)
     {
@@ -189,7 +189,7 @@ class OnlineBookingConfig
     /**
      * @param int $MerchantAccountId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setMerchantAccountId($MerchantAccountId)
     {
@@ -209,7 +209,7 @@ class OnlineBookingConfig
     /**
      * @param int $NewRequestId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setNewRequestId($NewRequestId)
     {
@@ -229,7 +229,7 @@ class OnlineBookingConfig
     /**
      * @param int $NonRequestId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setNonRequestId($NonRequestId)
     {
@@ -249,7 +249,7 @@ class OnlineBookingConfig
     /**
      * @param int $RepeatRequestId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setRepeatRequestId($RepeatRequestId)
     {
@@ -269,7 +269,7 @@ class OnlineBookingConfig
     /**
      * @param int $SellGCEmployeeId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setSellGCEmployeeId($SellGCEmployeeId)
     {
@@ -289,7 +289,7 @@ class OnlineBookingConfig
     /**
      * @param int $SellGCType
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setSellGCType($SellGCType)
     {
@@ -309,7 +309,7 @@ class OnlineBookingConfig
     /**
      * @param float $ShippingFee
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setShippingFee($ShippingFee)
     {
@@ -329,7 +329,7 @@ class OnlineBookingConfig
     /**
      * @param int $ShippingServiceId
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setShippingServiceId($ShippingServiceId)
     {
@@ -349,7 +349,7 @@ class OnlineBookingConfig
     /**
      * @param bool $ValidateCC
      *
-     * @return \Millennium\Soap\OnlineBookingConfig
+     * @return OnlineBookingConfig
      */
     public function setValidateCC($ValidateCC)
     {

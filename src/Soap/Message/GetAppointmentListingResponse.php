@@ -7,7 +7,7 @@ class GetAppointmentListingResponse
     /**
      * @var ArrayOfAppointmentListing
      */
-    protected $GetAppointmentListingResult = null;
+    protected $GetAppointmentListingResult;
 
     /**
      * @param ArrayOfAppointmentListing $GetAppointmentListingResult
@@ -28,7 +28,7 @@ class GetAppointmentListingResponse
     /**
      * @param ArrayOfAppointmentListing $GetAppointmentListingResult
      *
-     * @return \Millennium\Soap\GetAppointmentListingResponse
+     * @return GetAppointmentListingResponse
      */
     public function setGetAppointmentListingResult($GetAppointmentListingResult)
     {

@@ -7,12 +7,12 @@ class GetServicePackages
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @var bool
      */
-    protected $onlineOnly = null;
+    protected $onlineOnly;
 
     /**
      * @param int  $clientId
@@ -35,7 +35,7 @@ class GetServicePackages
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\GetServicePackages
+     * @return GetServicePackages
      */
     public function setClientId($clientId)
     {
@@ -55,7 +55,7 @@ class GetServicePackages
     /**
      * @param bool $onlineOnly
      *
-     * @return \Millennium\Soap\GetServicePackages
+     * @return GetServicePackages
      */
     public function setOnlineOnly($onlineOnly)
     {

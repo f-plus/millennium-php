@@ -7,17 +7,17 @@ class GetClientHistory
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @var \DateTime
      */
-    protected $startDate = null;
+    protected $startDate;
 
     /**
      * @var \DateTime
      */
-    protected $endDate = null;
+    protected $endDate;
 
     /**
      * @param int       $clientId
@@ -42,7 +42,7 @@ class GetClientHistory
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\GetClientHistory
+     * @return GetClientHistory
      */
     public function setClientId($clientId)
     {
@@ -70,7 +70,7 @@ class GetClientHistory
     /**
      * @param \DateTime $startDate
      *
-     * @return \Millennium\Soap\GetClientHistory
+     * @return GetClientHistory
      */
     public function setStartDate(\DateTime $startDate)
     {
@@ -98,7 +98,7 @@ class GetClientHistory
     /**
      * @param \DateTime $endDate
      *
-     * @return \Millennium\Soap\GetClientHistory
+     * @return GetClientHistory
      */
     public function setEndDate(\DateTime $endDate)
     {

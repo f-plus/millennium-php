@@ -7,12 +7,12 @@ class LogOnResponse
     /**
      * @var SessionClient
      */
-    protected $LogOnResult = null;
+    protected $LogOnResult;
 
     /**
      * @var CustomException
      */
-    protected $error = null;
+    protected $error;
 
     /**
      * @param SessionClient   $LogOnResult
@@ -35,7 +35,7 @@ class LogOnResponse
     /**
      * @param SessionClient $LogOnResult
      *
-     * @return \Millennium\Soap\LogOnResponse
+     * @return LogOnResponse
      */
     public function setLogOnResult($LogOnResult)
     {
@@ -55,7 +55,7 @@ class LogOnResponse
     /**
      * @param CustomException $error
      *
-     * @return \Millennium\Soap\LogOnResponse
+     * @return LogOnResponse
      */
     public function setError($error)
     {

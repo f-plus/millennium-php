@@ -7,7 +7,7 @@ class SaveGCResponse
     /**
      * @var int
      */
-    protected $SaveGCResult = null;
+    protected $SaveGCResult;
 
     /**
      * @param int $SaveGCResult
@@ -28,7 +28,7 @@ class SaveGCResponse
     /**
      * @param int $SaveGCResult
      *
-     * @return \Millennium\Soap\SaveGCResponse
+     * @return SaveGCResponse
      */
     public function setSaveGCResult($SaveGCResult)
     {

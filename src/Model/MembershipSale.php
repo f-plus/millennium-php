@@ -7,97 +7,97 @@ class MembershipSale extends BaseDTO
     /**
      * @var \DateTime
      */
-    protected $AutoRenewBegins = null;
+    protected $AutoRenewBegins;
 
     /**
      * @var AutoRenewType
      */
-    protected $AutoRenewType = null;
+    protected $AutoRenewType;
 
     /**
      * @var BillingFrequency
      */
-    protected $BillingFrequency = null;
+    protected $BillingFrequency;
 
     /**
      * @var MembershipBilling
      */
-    protected $BillingType = null;
+    protected $BillingType;
 
     /**
      * @var ArrayOfMembershipSaleDetail
      */
-    protected $Details = null;
+    protected $Details;
 
     /**
      * @var \DateTime
      */
-    protected $ExpirationDate = null;
+    protected $ExpirationDate;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var string
      */
-    protected $InvoiceNumber = null;
+    protected $InvoiceNumber;
 
     /**
      * @var bool
      */
-    protected $IsAutoRenew = null;
+    protected $IsAutoRenew;
 
     /**
      * @var bool
      */
-    protected $IsRefunded = null;
+    protected $IsRefunded;
 
     /**
      * @var bool
      */
-    protected $IsTaxable = null;
+    protected $IsTaxable;
 
     /**
      * @var string
      */
-    protected $MemberNumber = null;
+    protected $MemberNumber;
 
     /**
      * @var int
      */
-    protected $MembershipId = null;
+    protected $MembershipId;
 
     /**
      * @var string
      */
-    protected $MembershipName = null;
+    protected $MembershipName;
 
     /**
      * @var MonthOrDay
      */
-    protected $MonthOrDay = null;
+    protected $MonthOrDay;
 
     /**
      * @var int
      */
-    protected $MonthOrDayLength = null;
+    protected $MonthOrDayLength;
 
     /**
      * @var float
      */
-    protected $Price = null;
+    protected $Price;
 
     /**
      * @var int
      */
-    protected $TransactionHearderId = null;
+    protected $TransactionHearderId;
 
     /**
      * @var ArrayOfstring
      */
-    protected $UnlimitedServices = null;
+    protected $UnlimitedServices;
 
     public function __construct()
     {
@@ -122,7 +122,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param \DateTime $AutoRenewBegins
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setAutoRenewBegins(\DateTime $AutoRenewBegins = null)
     {
@@ -146,7 +146,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param AutoRenewType $AutoRenewType
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setAutoRenewType($AutoRenewType)
     {
@@ -166,7 +166,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param BillingFrequency $BillingFrequency
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setBillingFrequency($BillingFrequency)
     {
@@ -186,7 +186,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param MembershipBilling $BillingType
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setBillingType($BillingType)
     {
@@ -206,7 +206,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param ArrayOfMembershipSaleDetail $Details
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setDetails($Details)
     {
@@ -234,7 +234,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param \DateTime $ExpirationDate
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setExpirationDate(\DateTime $ExpirationDate = null)
     {
@@ -258,7 +258,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setId($Id)
     {
@@ -278,7 +278,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param string $InvoiceNumber
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setInvoiceNumber($InvoiceNumber)
     {
@@ -298,7 +298,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param bool $IsAutoRenew
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setIsAutoRenew($IsAutoRenew)
     {
@@ -318,7 +318,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param bool $IsRefunded
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setIsRefunded($IsRefunded)
     {
@@ -338,7 +338,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param bool $IsTaxable
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setIsTaxable($IsTaxable)
     {
@@ -358,7 +358,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param string $MemberNumber
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setMemberNumber($MemberNumber)
     {
@@ -378,7 +378,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param int $MembershipId
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setMembershipId($MembershipId)
     {
@@ -398,7 +398,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param string $MembershipName
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setMembershipName($MembershipName)
     {
@@ -418,7 +418,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param MonthOrDay $MonthOrDay
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setMonthOrDay($MonthOrDay)
     {
@@ -438,7 +438,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param int $MonthOrDayLength
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setMonthOrDayLength($MonthOrDayLength)
     {
@@ -458,7 +458,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param float $Price
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setPrice($Price)
     {
@@ -478,7 +478,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param int $TransactionHearderId
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setTransactionHearderId($TransactionHearderId)
     {
@@ -498,7 +498,7 @@ class MembershipSale extends BaseDTO
     /**
      * @param ArrayOfstring $UnlimitedServices
      *
-     * @return \Millennium\Soap\MembershipSale
+     * @return MembershipSale
      */
     public function setUnlimitedServices($UnlimitedServices)
     {

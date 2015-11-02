@@ -7,12 +7,12 @@ class TimeZoneInfo
     /**
      * @var string
      */
-    protected $any = null;
+    protected $any;
 
     /**
      * @var QName
      */
-    protected $FactoryType = null;
+    protected $FactoryType;
 
     /**
      * @param string $any
@@ -35,7 +35,7 @@ class TimeZoneInfo
     /**
      * @param string $any
      *
-     * @return \Millennium\Soap\TimeZoneInfo
+     * @return TimeZoneInfo
      */
     public function setAny($any)
     {
@@ -55,7 +55,7 @@ class TimeZoneInfo
     /**
      * @param QName $FactoryType
      *
-     * @return \Millennium\Soap\TimeZoneInfo
+     * @return TimeZoneInfo
      */
     public function setFactoryType($FactoryType)
     {

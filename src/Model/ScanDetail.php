@@ -7,32 +7,32 @@ class ScanDetail extends BaseDTO
     /**
      * @var int
      */
-    protected $AppointmentType = null;
+    protected $AppointmentType;
 
     /**
      * @var int
      */
-    protected $ClientId = null;
+    protected $ClientId;
 
     /**
      * @var int
      */
-    protected $EmployeeId = null;
+    protected $EmployeeId;
 
     /**
      * @var int
      */
-    protected $MustComeId = null;
+    protected $MustComeId;
 
     /**
      * @var int
      */
-    protected $ResourceId = null;
+    protected $ResourceId;
 
     /**
      * @var int
      */
-    protected $ServiceId = null;
+    protected $ServiceId;
 
     public function __construct()
     {
@@ -49,7 +49,7 @@ class ScanDetail extends BaseDTO
     /**
      * @param int $AppointmentType
      *
-     * @return \Millennium\Soap\ScanDetail
+     * @return ScanDetail
      */
     public function setAppointmentType($AppointmentType)
     {
@@ -69,7 +69,7 @@ class ScanDetail extends BaseDTO
     /**
      * @param int $ClientId
      *
-     * @return \Millennium\Soap\ScanDetail
+     * @return ScanDetail
      */
     public function setClientId($ClientId)
     {
@@ -89,7 +89,7 @@ class ScanDetail extends BaseDTO
     /**
      * @param int $EmployeeId
      *
-     * @return \Millennium\Soap\ScanDetail
+     * @return ScanDetail
      */
     public function setEmployeeId($EmployeeId)
     {
@@ -109,7 +109,7 @@ class ScanDetail extends BaseDTO
     /**
      * @param int $MustComeId
      *
-     * @return \Millennium\Soap\ScanDetail
+     * @return ScanDetail
      */
     public function setMustComeId($MustComeId)
     {
@@ -129,7 +129,7 @@ class ScanDetail extends BaseDTO
     /**
      * @param int $ResourceId
      *
-     * @return \Millennium\Soap\ScanDetail
+     * @return ScanDetail
      */
     public function setResourceId($ResourceId)
     {
@@ -149,7 +149,7 @@ class ScanDetail extends BaseDTO
     /**
      * @param int $ServiceId
      *
-     * @return \Millennium\Soap\ScanDetail
+     * @return ScanDetail
      */
     public function setServiceId($ServiceId)
     {

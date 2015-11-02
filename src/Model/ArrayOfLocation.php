@@ -7,7 +7,7 @@ class ArrayOfLocation
     /**
      * @var Location[]
      */
-    protected $Location = null;
+    protected $Location;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfLocation
     /**
      * @param Location[] $Location
      *
-     * @return \Millennium\Soap\ArrayOfLocation
+     * @return ArrayOfLocation
      */
     public function setLocation(array $Location = null)
     {

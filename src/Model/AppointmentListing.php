@@ -7,202 +7,202 @@ class AppointmentListing
     /**
      * @var \DateTime
      */
-    protected $AppointmentDate = null;
+    protected $AppointmentDate;
 
     /**
      * @var int
      */
-    protected $AppointmentDetailId = null;
+    protected $AppointmentDetailId;
 
     /**
      * @var string
      */
-    protected $AppointmentType = null;
+    protected $AppointmentType;
 
     /**
      * @var int
      */
-    protected $AppointmentTypeId = null;
+    protected $AppointmentTypeId;
 
     /**
      * @var int
      */
-    protected $BookedByLoginId = null;
+    protected $BookedByLoginId;
 
     /**
      * @var \DateTime
      */
-    protected $BookedOn = null;
+    protected $BookedOn;
 
     /**
      * @var bool
      */
-    protected $BookedOnLine = null;
+    protected $BookedOnLine;
 
     /**
      * @var bool
      */
-    protected $ChargeApptToRoom = null;
+    protected $ChargeApptToRoom;
 
     /**
      * @var string
      */
-    protected $CheckInTime = null;
+    protected $CheckInTime;
 
     /**
      * @var string
      */
-    protected $CheckOutTime = null;
+    protected $CheckOutTime;
 
     /**
      * @var string
      */
-    protected $Client = null;
+    protected $Client;
 
     /**
      * @var int
      */
-    protected $ClientId = null;
+    protected $ClientId;
 
     /**
      * @var string
      */
-    protected $ConfirmationTypes = null;
+    protected $ConfirmationTypes;
 
     /**
      * @var string
      */
-    protected $Employee = null;
+    protected $Employee;
 
     /**
      * @var int
      */
-    protected $EmployeeId = null;
+    protected $EmployeeId;
 
     /**
      * @var string
      */
-    protected $EmployeeImageUrl = null;
+    protected $EmployeeImageUrl;
 
     /**
      * @var float
      */
-    protected $FinishLength = null;
+    protected $FinishLength;
 
     /**
      * @var float
      */
-    protected $GapLength = null;
+    protected $GapLength;
 
     /**
      * @var string
      */
-    protected $Gender = null;
+    protected $Gender;
 
     /**
      * @var int
      */
-    protected $Genderid = null;
+    protected $Genderid;
 
     /**
      * @var bool
      */
-    protected $HasCheckedIn = null;
+    protected $HasCheckedIn;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var bool
      */
-    protected $IsClass = null;
+    protected $IsClass;
 
     /**
      * @var bool
      */
-    protected $IsNoShow = null;
+    protected $IsNoShow;
 
     /**
      * @var bool
      */
-    protected $IsRunningLate = null;
+    protected $IsRunningLate;
 
     /**
      * @var \DateTime
      */
-    protected $LastChanged = null;
+    protected $LastChanged;
 
     /**
      * @var int
      */
-    protected $LastChangedByLoginId = null;
+    protected $LastChangedByLoginId;
 
     /**
      * @var string
      */
-    protected $Notes = null;
+    protected $Notes;
 
     /**
      * @var string
      */
-    protected $PayingClient = null;
+    protected $PayingClient;
 
     /**
      * @var int
      */
-    protected $PayingClientId = null;
+    protected $PayingClientId;
 
     /**
      * @var bool
      */
-    protected $PreBook = null;
+    protected $PreBook;
 
     /**
      * @var string
      */
-    protected $Resource = null;
+    protected $Resource;
 
     /**
      * @var int
      */
-    protected $ResourceId = null;
+    protected $ResourceId;
 
     /**
      * @var string
      */
-    protected $Service = null;
+    protected $Service;
 
     /**
      * @var int
      */
-    protected $ServiceId = null;
+    protected $ServiceId;
 
     /**
      * @var string
      */
-    protected $ServiceImageUrl = null;
+    protected $ServiceImageUrl;
 
     /**
      * @var float
      */
-    protected $ServicePrice = null;
+    protected $ServicePrice;
 
     /**
      * @var int
      */
-    protected $StandingHeaderId = null;
+    protected $StandingHeaderId;
 
     /**
      * @var float
      */
-    protected $StartLength = null;
+    protected $StartLength;
 
     /**
      * @var \DateTime
      */
-    protected $StartTime = null;
+    protected $StartTime;
 
     public function __construct()
     {
@@ -227,7 +227,7 @@ class AppointmentListing
     /**
      * @param \DateTime $AppointmentDate
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setAppointmentDate(\DateTime $AppointmentDate = null)
     {
@@ -251,7 +251,7 @@ class AppointmentListing
     /**
      * @param int $AppointmentDetailId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setAppointmentDetailId($AppointmentDetailId)
     {
@@ -271,7 +271,7 @@ class AppointmentListing
     /**
      * @param string $AppointmentType
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setAppointmentType($AppointmentType)
     {
@@ -291,7 +291,7 @@ class AppointmentListing
     /**
      * @param int $AppointmentTypeId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setAppointmentTypeId($AppointmentTypeId)
     {
@@ -311,7 +311,7 @@ class AppointmentListing
     /**
      * @param int $BookedByLoginId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setBookedByLoginId($BookedByLoginId)
     {
@@ -339,7 +339,7 @@ class AppointmentListing
     /**
      * @param \DateTime $BookedOn
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setBookedOn(\DateTime $BookedOn = null)
     {
@@ -363,7 +363,7 @@ class AppointmentListing
     /**
      * @param bool $BookedOnLine
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setBookedOnLine($BookedOnLine)
     {
@@ -383,7 +383,7 @@ class AppointmentListing
     /**
      * @param bool $ChargeApptToRoom
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setChargeApptToRoom($ChargeApptToRoom)
     {
@@ -403,7 +403,7 @@ class AppointmentListing
     /**
      * @param string $CheckInTime
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setCheckInTime($CheckInTime)
     {
@@ -423,7 +423,7 @@ class AppointmentListing
     /**
      * @param string $CheckOutTime
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setCheckOutTime($CheckOutTime)
     {
@@ -443,7 +443,7 @@ class AppointmentListing
     /**
      * @param string $Client
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setClient($Client)
     {
@@ -463,7 +463,7 @@ class AppointmentListing
     /**
      * @param int $ClientId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setClientId($ClientId)
     {
@@ -483,7 +483,7 @@ class AppointmentListing
     /**
      * @param string $ConfirmationTypes
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setConfirmationTypes($ConfirmationTypes)
     {
@@ -503,7 +503,7 @@ class AppointmentListing
     /**
      * @param string $Employee
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setEmployee($Employee)
     {
@@ -523,7 +523,7 @@ class AppointmentListing
     /**
      * @param int $EmployeeId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setEmployeeId($EmployeeId)
     {
@@ -543,7 +543,7 @@ class AppointmentListing
     /**
      * @param string $EmployeeImageUrl
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setEmployeeImageUrl($EmployeeImageUrl)
     {
@@ -563,7 +563,7 @@ class AppointmentListing
     /**
      * @param float $FinishLength
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setFinishLength($FinishLength)
     {
@@ -583,7 +583,7 @@ class AppointmentListing
     /**
      * @param float $GapLength
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setGapLength($GapLength)
     {
@@ -603,7 +603,7 @@ class AppointmentListing
     /**
      * @param string $Gender
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setGender($Gender)
     {
@@ -623,7 +623,7 @@ class AppointmentListing
     /**
      * @param int $Genderid
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setGenderid($Genderid)
     {
@@ -643,7 +643,7 @@ class AppointmentListing
     /**
      * @param bool $HasCheckedIn
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setHasCheckedIn($HasCheckedIn)
     {
@@ -663,7 +663,7 @@ class AppointmentListing
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setId($Id)
     {
@@ -683,7 +683,7 @@ class AppointmentListing
     /**
      * @param bool $IsClass
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setIsClass($IsClass)
     {
@@ -703,7 +703,7 @@ class AppointmentListing
     /**
      * @param bool $IsNoShow
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setIsNoShow($IsNoShow)
     {
@@ -723,7 +723,7 @@ class AppointmentListing
     /**
      * @param bool $IsRunningLate
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setIsRunningLate($IsRunningLate)
     {
@@ -751,7 +751,7 @@ class AppointmentListing
     /**
      * @param \DateTime $LastChanged
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setLastChanged(\DateTime $LastChanged = null)
     {
@@ -775,7 +775,7 @@ class AppointmentListing
     /**
      * @param int $LastChangedByLoginId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setLastChangedByLoginId($LastChangedByLoginId)
     {
@@ -795,7 +795,7 @@ class AppointmentListing
     /**
      * @param string $Notes
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setNotes($Notes)
     {
@@ -815,7 +815,7 @@ class AppointmentListing
     /**
      * @param string $PayingClient
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setPayingClient($PayingClient)
     {
@@ -835,7 +835,7 @@ class AppointmentListing
     /**
      * @param int $PayingClientId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setPayingClientId($PayingClientId)
     {
@@ -855,7 +855,7 @@ class AppointmentListing
     /**
      * @param bool $PreBook
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setPreBook($PreBook)
     {
@@ -875,7 +875,7 @@ class AppointmentListing
     /**
      * @param string $Resource
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setResource($Resource)
     {
@@ -895,7 +895,7 @@ class AppointmentListing
     /**
      * @param int $ResourceId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setResourceId($ResourceId)
     {
@@ -915,7 +915,7 @@ class AppointmentListing
     /**
      * @param string $Service
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setService($Service)
     {
@@ -935,7 +935,7 @@ class AppointmentListing
     /**
      * @param int $ServiceId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setServiceId($ServiceId)
     {
@@ -955,7 +955,7 @@ class AppointmentListing
     /**
      * @param string $ServiceImageUrl
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setServiceImageUrl($ServiceImageUrl)
     {
@@ -975,7 +975,7 @@ class AppointmentListing
     /**
      * @param float $ServicePrice
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setServicePrice($ServicePrice)
     {
@@ -995,7 +995,7 @@ class AppointmentListing
     /**
      * @param int $StandingHeaderId
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setStandingHeaderId($StandingHeaderId)
     {
@@ -1015,7 +1015,7 @@ class AppointmentListing
     /**
      * @param float $StartLength
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setStartLength($StartLength)
     {
@@ -1043,7 +1043,7 @@ class AppointmentListing
     /**
      * @param \DateTime $StartTime
      *
-     * @return \Millennium\Soap\AppointmentListing
+     * @return AppointmentListing
      */
     public function setStartTime(\DateTime $StartTime = null)
     {

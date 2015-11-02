@@ -7,77 +7,77 @@ class GC extends BaseDTO
     /**
      * @var float
      */
-    protected $AmountLeft = null;
+    protected $AmountLeft;
 
     /**
      * @var int
      */
-    protected $EmployeeId = null;
+    protected $EmployeeId;
 
     /**
      * @var \DateTime
      */
-    protected $ExpiresOn = null;
+    protected $ExpiresOn;
 
     /**
      * @var string
      */
-    protected $GCNumber = null;
+    protected $GCNumber;
 
     /**
      * @var int
      */
-    protected $GCTypeId = null;
+    protected $GCTypeId;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var string
      */
-    protected $Notes = null;
+    protected $Notes;
 
     /**
      * @var float
      */
-    protected $OriginAmount = null;
+    protected $OriginAmount;
 
     /**
      * @var float
      */
-    protected $Price = null;
+    protected $Price;
 
     /**
      * @var int
      */
-    protected $PurchById = null;
+    protected $PurchById;
 
     /**
      * @var int
      */
-    protected $PurchForId = null;
+    protected $PurchForId;
 
     /**
      * @var int
      */
-    protected $ReferralId = null;
+    protected $ReferralId;
 
     /**
      * @var float
      */
-    protected $TipAmount = null;
+    protected $TipAmount;
 
     /**
      * @var float
      */
-    protected $TipRemaining = null;
+    protected $TipRemaining;
 
     /**
      * @var \DateTime
      */
-    protected $ValidFrom = null;
+    protected $ValidFrom;
 
     public function __construct()
     {
@@ -94,7 +94,7 @@ class GC extends BaseDTO
     /**
      * @param float $AmountLeft
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setAmountLeft($AmountLeft)
     {
@@ -114,7 +114,7 @@ class GC extends BaseDTO
     /**
      * @param int $EmployeeId
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setEmployeeId($EmployeeId)
     {
@@ -142,7 +142,7 @@ class GC extends BaseDTO
     /**
      * @param \DateTime $ExpiresOn
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setExpiresOn(\DateTime $ExpiresOn = null)
     {
@@ -166,7 +166,7 @@ class GC extends BaseDTO
     /**
      * @param string $GCNumber
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setGCNumber($GCNumber)
     {
@@ -186,7 +186,7 @@ class GC extends BaseDTO
     /**
      * @param int $GCTypeId
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setGCTypeId($GCTypeId)
     {
@@ -206,7 +206,7 @@ class GC extends BaseDTO
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setId($Id)
     {
@@ -226,7 +226,7 @@ class GC extends BaseDTO
     /**
      * @param string $Notes
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setNotes($Notes)
     {
@@ -246,7 +246,7 @@ class GC extends BaseDTO
     /**
      * @param float $OriginAmount
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setOriginAmount($OriginAmount)
     {
@@ -266,7 +266,7 @@ class GC extends BaseDTO
     /**
      * @param float $Price
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setPrice($Price)
     {
@@ -286,7 +286,7 @@ class GC extends BaseDTO
     /**
      * @param int $PurchById
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setPurchById($PurchById)
     {
@@ -306,7 +306,7 @@ class GC extends BaseDTO
     /**
      * @param int $PurchForId
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setPurchForId($PurchForId)
     {
@@ -326,7 +326,7 @@ class GC extends BaseDTO
     /**
      * @param int $ReferralId
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setReferralId($ReferralId)
     {
@@ -346,7 +346,7 @@ class GC extends BaseDTO
     /**
      * @param float $TipAmount
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setTipAmount($TipAmount)
     {
@@ -366,7 +366,7 @@ class GC extends BaseDTO
     /**
      * @param float $TipRemaining
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setTipRemaining($TipRemaining)
     {
@@ -394,7 +394,7 @@ class GC extends BaseDTO
     /**
      * @param \DateTime $ValidFrom
      *
-     * @return \Millennium\Soap\GC
+     * @return GC
      */
     public function setValidFrom(\DateTime $ValidFrom = null)
     {

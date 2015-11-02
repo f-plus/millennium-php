@@ -7,7 +7,7 @@ class ArrayOfOpeningDetail
     /**
      * @var OpeningDetail[]
      */
-    protected $OpeningDetail = null;
+    protected $OpeningDetail;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfOpeningDetail
     /**
      * @param OpeningDetail[] $OpeningDetail
      *
-     * @return \Millennium\Soap\ArrayOfOpeningDetail
+     * @return ArrayOfOpeningDetail
      */
     public function setOpeningDetail(array $OpeningDetail = null)
     {

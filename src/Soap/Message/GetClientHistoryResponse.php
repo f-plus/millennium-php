@@ -7,7 +7,7 @@ class GetClientHistoryResponse
     /**
      * @var ArrayOfClientHistory
      */
-    protected $GetClientHistoryResult = null;
+    protected $GetClientHistoryResult;
 
     /**
      * @param ArrayOfClientHistory $GetClientHistoryResult
@@ -28,7 +28,7 @@ class GetClientHistoryResponse
     /**
      * @param ArrayOfClientHistory $GetClientHistoryResult
      *
-     * @return \Millennium\Soap\GetClientHistoryResponse
+     * @return GetClientHistoryResponse
      */
     public function setGetClientHistoryResult($GetClientHistoryResult)
     {

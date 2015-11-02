@@ -7,7 +7,7 @@ class ArrayOfEmployee
     /**
      * @var Employee[]
      */
-    protected $Employee = null;
+    protected $Employee;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfEmployee
     /**
      * @param Employee[] $Employee
      *
-     * @return \Millennium\Soap\ArrayOfEmployee
+     * @return ArrayOfEmployee
      */
     public function setEmployee(array $Employee = null)
     {

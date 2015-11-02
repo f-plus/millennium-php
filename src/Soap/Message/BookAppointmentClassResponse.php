@@ -7,7 +7,7 @@ class BookAppointmentClassResponse
     /**
      * @var bool
      */
-    protected $BookAppointmentClassResult = null;
+    protected $BookAppointmentClassResult;
 
     /**
      * @param bool $BookAppointmentClassResult
@@ -28,7 +28,7 @@ class BookAppointmentClassResponse
     /**
      * @param bool $BookAppointmentClassResult
      *
-     * @return \Millennium\Soap\BookAppointmentClassResponse
+     * @return BookAppointmentClassResponse
      */
     public function setBookAppointmentClassResult($BookAppointmentClassResult)
     {

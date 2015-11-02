@@ -7,7 +7,7 @@ class ArrayOfMembershipSaleDetail
     /**
      * @var MembershipSaleDetail[]
      */
-    protected $MembershipSaleDetail = null;
+    protected $MembershipSaleDetail;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfMembershipSaleDetail
     /**
      * @param MembershipSaleDetail[] $MembershipSaleDetail
      *
-     * @return \Millennium\Soap\ArrayOfMembershipSaleDetail
+     * @return ArrayOfMembershipSaleDetail
      */
     public function setMembershipSaleDetail(array $MembershipSaleDetail = null)
     {

@@ -7,77 +7,77 @@ class Service
     /**
      * @var bool
      */
-    protected $CanBePerformOnFemale = null;
+    protected $CanBePerformOnFemale;
 
     /**
      * @var bool
      */
-    protected $CanBePerformOnMale = null;
+    protected $CanBePerformOnMale;
 
     /**
      * @var string
      */
-    protected $Catalog = null;
+    protected $Catalog;
 
     /**
      * @var int
      */
-    protected $ClassId = null;
+    protected $ClassId;
 
     /**
      * @var string
      */
-    protected $Code = null;
+    protected $Code;
 
     /**
      * @var bool
      */
-    protected $ForceGender = null;
+    protected $ForceGender;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var bool
      */
-    protected $IsClass = null;
+    protected $IsClass;
 
     /**
      * @var string
      */
-    protected $Name = null;
+    protected $Name;
 
     /**
      * @var string
      */
-    protected $Notes = null;
+    protected $Notes;
 
     /**
      * @var float
      */
-    protected $PriceHigh = null;
+    protected $PriceHigh;
 
     /**
      * @var float
      */
-    protected $PriceLow = null;
+    protected $PriceLow;
 
     /**
      * @var string
      */
-    protected $ServiceImageUrl = null;
+    protected $ServiceImageUrl;
 
     /**
      * @var bool
      */
-    protected $ShowNotes = null;
+    protected $ShowNotes;
 
     /**
      * @var int
      */
-    protected $SubClassId = null;
+    protected $SubClassId;
 
     public function __construct()
     {
@@ -94,7 +94,7 @@ class Service
     /**
      * @param bool $CanBePerformOnFemale
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setCanBePerformOnFemale($CanBePerformOnFemale)
     {
@@ -114,7 +114,7 @@ class Service
     /**
      * @param bool $CanBePerformOnMale
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setCanBePerformOnMale($CanBePerformOnMale)
     {
@@ -134,7 +134,7 @@ class Service
     /**
      * @param string $Catalog
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setCatalog($Catalog)
     {
@@ -154,7 +154,7 @@ class Service
     /**
      * @param int $ClassId
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setClassId($ClassId)
     {
@@ -174,7 +174,7 @@ class Service
     /**
      * @param string $Code
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setCode($Code)
     {
@@ -194,7 +194,7 @@ class Service
     /**
      * @param bool $ForceGender
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setForceGender($ForceGender)
     {
@@ -214,7 +214,7 @@ class Service
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setId($Id)
     {
@@ -234,7 +234,7 @@ class Service
     /**
      * @param bool $IsClass
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setIsClass($IsClass)
     {
@@ -254,7 +254,7 @@ class Service
     /**
      * @param string $Name
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setName($Name)
     {
@@ -274,7 +274,7 @@ class Service
     /**
      * @param string $Notes
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setNotes($Notes)
     {
@@ -294,7 +294,7 @@ class Service
     /**
      * @param float $PriceHigh
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setPriceHigh($PriceHigh)
     {
@@ -314,7 +314,7 @@ class Service
     /**
      * @param float $PriceLow
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setPriceLow($PriceLow)
     {
@@ -334,7 +334,7 @@ class Service
     /**
      * @param string $ServiceImageUrl
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setServiceImageUrl($ServiceImageUrl)
     {
@@ -354,7 +354,7 @@ class Service
     /**
      * @param bool $ShowNotes
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setShowNotes($ShowNotes)
     {
@@ -374,7 +374,7 @@ class Service
     /**
      * @param int $SubClassId
      *
-     * @return \Millennium\Soap\Service
+     * @return Service
      */
     public function setSubClassId($SubClassId)
     {

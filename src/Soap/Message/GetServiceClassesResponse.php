@@ -7,7 +7,7 @@ class GetServiceClassesResponse
     /**
      * @var ArrayOfServiceClass
      */
-    protected $GetServiceClassesResult = null;
+    protected $GetServiceClassesResult;
 
     /**
      * @param ArrayOfServiceClass $GetServiceClassesResult
@@ -28,7 +28,7 @@ class GetServiceClassesResponse
     /**
      * @param ArrayOfServiceClass $GetServiceClassesResult
      *
-     * @return \Millennium\Soap\GetServiceClassesResponse
+     * @return GetServiceClassesResponse
      */
     public function setGetServiceClassesResult($GetServiceClassesResult)
     {

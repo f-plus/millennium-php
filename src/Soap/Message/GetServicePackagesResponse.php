@@ -7,7 +7,7 @@ class GetServicePackagesResponse
     /**
      * @var ArrayOfServicePackage
      */
-    protected $GetServicePackagesResult = null;
+    protected $GetServicePackagesResult;
 
     /**
      * @param ArrayOfServicePackage $GetServicePackagesResult
@@ -28,7 +28,7 @@ class GetServicePackagesResponse
     /**
      * @param ArrayOfServicePackage $GetServicePackagesResult
      *
-     * @return \Millennium\Soap\GetServicePackagesResponse
+     * @return GetServicePackagesResponse
      */
     public function setGetServicePackagesResult($GetServicePackagesResult)
     {

@@ -7,12 +7,12 @@ class CustomException
     /**
      * @var string
      */
-    protected $FullMessage = null;
+    protected $FullMessage;
 
     /**
      * @var string
      */
-    protected $Message = null;
+    protected $Message;
 
     public function __construct()
     {
@@ -29,7 +29,7 @@ class CustomException
     /**
      * @param string $FullMessage
      *
-     * @return \Millennium\Soap\CustomException
+     * @return CustomException
      */
     public function setFullMessage($FullMessage)
     {
@@ -49,7 +49,7 @@ class CustomException
     /**
      * @param string $Message
      *
-     * @return \Millennium\Soap\CustomException
+     * @return CustomException
      */
     public function setMessage($Message)
     {

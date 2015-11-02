@@ -7,42 +7,42 @@ class Employee
     /**
      * @var string
      */
-    protected $Code = null;
+    protected $Code;
 
     /**
      * @var string
      */
-    protected $DotNetName = null;
+    protected $DotNetName;
 
     /**
      * @var string
      */
-    protected $EmployeeBio = null;
+    protected $EmployeeBio;
 
     /**
      * @var string
      */
-    protected $EmployeeImageUrl = null;
+    protected $EmployeeImageUrl;
 
     /**
      * @var string
      */
-    protected $FirstName = null;
+    protected $FirstName;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var string
      */
-    protected $LastName = null;
+    protected $LastName;
 
     /**
      * @var Sex
      */
-    protected $Sex = null;
+    protected $Sex;
 
     public function __construct()
     {
@@ -59,7 +59,7 @@ class Employee
     /**
      * @param string $Code
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setCode($Code)
     {
@@ -79,7 +79,7 @@ class Employee
     /**
      * @param string $DotNetName
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setDotNetName($DotNetName)
     {
@@ -99,7 +99,7 @@ class Employee
     /**
      * @param string $EmployeeBio
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setEmployeeBio($EmployeeBio)
     {
@@ -119,7 +119,7 @@ class Employee
     /**
      * @param string $EmployeeImageUrl
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setEmployeeImageUrl($EmployeeImageUrl)
     {
@@ -139,7 +139,7 @@ class Employee
     /**
      * @param string $FirstName
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setFirstName($FirstName)
     {
@@ -159,7 +159,7 @@ class Employee
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setId($Id)
     {
@@ -179,7 +179,7 @@ class Employee
     /**
      * @param string $LastName
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setLastName($LastName)
     {
@@ -199,7 +199,7 @@ class Employee
     /**
      * @param Sex $Sex
      *
-     * @return \Millennium\Soap\Employee
+     * @return Employee
      */
     public function setSex($Sex)
     {

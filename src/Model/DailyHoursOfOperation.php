@@ -7,17 +7,17 @@ class DailyHoursOfOperation
     /**
      * @var bool
      */
-    protected $IsOpenElseClosed = null;
+    protected $IsOpenElseClosed;
 
     /**
      * @var \DateTime
      */
-    protected $TimeClose = null;
+    protected $TimeClose;
 
     /**
      * @var \DateTime
      */
-    protected $TimeOpen = null;
+    protected $TimeOpen;
 
     public function __construct()
     {
@@ -34,7 +34,7 @@ class DailyHoursOfOperation
     /**
      * @param bool $IsOpenElseClosed
      *
-     * @return \Millennium\Soap\DailyHoursOfOperation
+     * @return DailyHoursOfOperation
      */
     public function setIsOpenElseClosed($IsOpenElseClosed)
     {
@@ -62,7 +62,7 @@ class DailyHoursOfOperation
     /**
      * @param \DateTime $TimeClose
      *
-     * @return \Millennium\Soap\DailyHoursOfOperation
+     * @return DailyHoursOfOperation
      */
     public function setTimeClose(\DateTime $TimeClose = null)
     {
@@ -94,7 +94,7 @@ class DailyHoursOfOperation
     /**
      * @param \DateTime $TimeOpen
      *
-     * @return \Millennium\Soap\DailyHoursOfOperation
+     * @return DailyHoursOfOperation
      */
     public function setTimeOpen(\DateTime $TimeOpen = null)
     {

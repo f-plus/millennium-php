@@ -7,7 +7,7 @@ class ArrayOfEftBilling
     /**
      * @var EftBilling[]
      */
-    protected $EftBilling = null;
+    protected $EftBilling;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfEftBilling
     /**
      * @param EftBilling[] $EftBilling
      *
-     * @return \Millennium\Soap\ArrayOfEftBilling
+     * @return ArrayOfEftBilling
      */
     public function setEftBilling(array $EftBilling = null)
     {

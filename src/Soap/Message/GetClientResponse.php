@@ -7,7 +7,7 @@ class GetClientResponse
     /**
      * @var Client
      */
-    protected $GetClientResult = null;
+    protected $GetClientResult;
 
     /**
      * @param Client $GetClientResult
@@ -28,7 +28,7 @@ class GetClientResponse
     /**
      * @param Client $GetClientResult
      *
-     * @return \Millennium\Soap\GetClientResponse
+     * @return GetClientResponse
      */
     public function setGetClientResult($GetClientResult)
     {

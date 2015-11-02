@@ -7,32 +7,32 @@ class ServicePackage extends Service
     /**
      * @var int
      */
-    protected $Booked = null;
+    protected $Booked;
 
     /**
      * @var bool
      */
-    protected $CanBeBookedOnline = null;
+    protected $CanBeBookedOnline;
 
     /**
      * @var float
      */
-    protected $PriceEach = null;
+    protected $PriceEach;
 
     /**
      * @var int
      */
-    protected $Quantity = null;
+    protected $Quantity;
 
     /**
      * @var int
      */
-    protected $Remaining = null;
+    protected $Remaining;
 
     /**
      * @var float
      */
-    protected $ValueEach = null;
+    protected $ValueEach;
 
     public function __construct()
     {
@@ -50,7 +50,7 @@ class ServicePackage extends Service
     /**
      * @param int $Booked
      *
-     * @return \Millennium\Soap\ServicePackage
+     * @return ServicePackage
      */
     public function setBooked($Booked)
     {
@@ -70,7 +70,7 @@ class ServicePackage extends Service
     /**
      * @param bool $CanBeBookedOnline
      *
-     * @return \Millennium\Soap\ServicePackage
+     * @return ServicePackage
      */
     public function setCanBeBookedOnline($CanBeBookedOnline)
     {
@@ -90,7 +90,7 @@ class ServicePackage extends Service
     /**
      * @param float $PriceEach
      *
-     * @return \Millennium\Soap\ServicePackage
+     * @return ServicePackage
      */
     public function setPriceEach($PriceEach)
     {
@@ -110,7 +110,7 @@ class ServicePackage extends Service
     /**
      * @param int $Quantity
      *
-     * @return \Millennium\Soap\ServicePackage
+     * @return ServicePackage
      */
     public function setQuantity($Quantity)
     {
@@ -130,7 +130,7 @@ class ServicePackage extends Service
     /**
      * @param int $Remaining
      *
-     * @return \Millennium\Soap\ServicePackage
+     * @return ServicePackage
      */
     public function setRemaining($Remaining)
     {
@@ -150,7 +150,7 @@ class ServicePackage extends Service
     /**
      * @param float $ValueEach
      *
-     * @return \Millennium\Soap\ServicePackage
+     * @return ServicePackage
      */
     public function setValueEach($ValueEach)
     {

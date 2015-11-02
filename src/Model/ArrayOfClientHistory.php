@@ -7,7 +7,7 @@ class ArrayOfClientHistory
     /**
      * @var ClientHistory[]
      */
-    protected $ClientHistory = null;
+    protected $ClientHistory;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfClientHistory
     /**
      * @param ClientHistory[] $ClientHistory
      *
-     * @return \Millennium\Soap\ArrayOfClientHistory
+     * @return ArrayOfClientHistory
      */
     public function setClientHistory(array $ClientHistory = null)
     {

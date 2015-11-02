@@ -7,7 +7,7 @@ class GetSalonInfoResponse
     /**
      * @var SalonInfo
      */
-    protected $GetSalonInfoResult = null;
+    protected $GetSalonInfoResult;
 
     /**
      * @param SalonInfo $GetSalonInfoResult
@@ -28,7 +28,7 @@ class GetSalonInfoResponse
     /**
      * @param SalonInfo $GetSalonInfoResult
      *
-     * @return \Millennium\Soap\GetSalonInfoResponse
+     * @return GetSalonInfoResponse
      */
     public function setGetSalonInfoResult($GetSalonInfoResult)
     {

@@ -2,21 +2,21 @@
 
 namespace FPlus\Millennium\Model;
 
-class KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
+class KeyValuePair
 {
     /**
-     * @var DayOfWeek
+     * @var mixed
      */
-    protected $Key = null;
+    protected $Key;
 
     /**
-     * @var DailyHoursOfOperation
+     * @var mixed
      */
-    protected $Value = null;
+    protected $Value;
 
     /**
-     * @param DayOfWeek             $Key
-     * @param DailyHoursOfOperation $Value
+     * @param mixed $Key
+     * @param mixed $Value
      */
     public function __construct($Key, $Value)
     {
@@ -25,7 +25,7 @@ class KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
     }
 
     /**
-     * @return DayOfWeek
+     * @return mixed
      */
     public function getKey()
     {
@@ -33,9 +33,9 @@ class KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
     }
 
     /**
-     * @param DayOfWeek $Key
+     * @param mixed $Key
      *
-     * @return \Millennium\Soap\KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
+     * @return KeyValuePair
      */
     public function setKey($Key)
     {
@@ -45,7 +45,7 @@ class KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
     }
 
     /**
-     * @return DailyHoursOfOperation
+     * @return mixed
      */
     public function getValue()
     {
@@ -53,9 +53,9 @@ class KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
     }
 
     /**
-     * @param DailyHoursOfOperation $Value
+     * @param mixed $Value
      *
-     * @return \Millennium\Soap\KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
+     * @return KeyValuePair
      */
     public function setValue($Value)
     {

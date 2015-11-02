@@ -7,17 +7,17 @@ class Opening extends BaseDTO
     /**
      * @var int
      */
-    protected $ChoiceNumber = null;
+    protected $ChoiceNumber;
 
     /**
      * @var ArrayOfOpeningDetail
      */
-    protected $Openings = null;
+    protected $Openings;
 
     /**
      * @var \DateTime
      */
-    protected $StartDateTime = null;
+    protected $StartDateTime;
 
     public function __construct()
     {
@@ -34,7 +34,7 @@ class Opening extends BaseDTO
     /**
      * @param int $ChoiceNumber
      *
-     * @return \Millennium\Soap\Opening
+     * @return Opening
      */
     public function setChoiceNumber($ChoiceNumber)
     {
@@ -54,7 +54,7 @@ class Opening extends BaseDTO
     /**
      * @param ArrayOfOpeningDetail $Openings
      *
-     * @return \Millennium\Soap\Opening
+     * @return Opening
      */
     public function setOpenings($Openings)
     {
@@ -82,7 +82,7 @@ class Opening extends BaseDTO
     /**
      * @param \DateTime $StartDateTime
      *
-     * @return \Millennium\Soap\Opening
+     * @return Opening
      */
     public function setStartDateTime(\DateTime $StartDateTime = null)
     {

@@ -7,92 +7,92 @@ class GCClient extends GC
     /**
      * @var string
      */
-    protected $Address1 = null;
+    protected $Address1;
 
     /**
      * @var string
      */
-    protected $Address2 = null;
+    protected $Address2;
 
     /**
      * @var string
      */
-    protected $City = null;
+    protected $City;
 
     /**
      * @var string
      */
-    protected $GCTypeName = null;
+    protected $GCTypeName;
 
     /**
      * @var MailType
      */
-    protected $MailTo = null;
+    protected $MailTo;
 
     /**
      * @var string
      */
-    protected $PurchForAreadCode = null;
+    protected $PurchForAreadCode;
 
     /**
      * @var string
      */
-    protected $PurchForEmail = null;
+    protected $PurchForEmail;
 
     /**
      * @var string
      */
-    protected $PurchForFirstName = null;
+    protected $PurchForFirstName;
 
     /**
      * @var string
      */
-    protected $PurchForLastName = null;
+    protected $PurchForLastName;
 
     /**
      * @var string
      */
-    protected $PurchForPhoneNumber = null;
+    protected $PurchForPhoneNumber;
 
     /**
      * @var Sex
      */
-    protected $PurchForSex = null;
+    protected $PurchForSex;
 
     /**
      * @var string
      */
-    protected $PurchaseForMessage = null;
+    protected $PurchaseForMessage;
 
     /**
      * @var PurchaseForType
      */
-    protected $PurchaseForType = null;
+    protected $PurchaseForType;
 
     /**
      * @var string
      */
-    protected $PurchaseFrom = null;
+    protected $PurchaseFrom;
 
     /**
      * @var string
      */
-    protected $PurchaseTo = null;
+    protected $PurchaseTo;
 
     /**
      * @var float
      */
-    protected $ShippingFee = null;
+    protected $ShippingFee;
 
     /**
      * @var string
      */
-    protected $State = null;
+    protected $State;
 
     /**
      * @var string
      */
-    protected $ZipCode = null;
+    protected $ZipCode;
 
     public function __construct()
     {
@@ -110,7 +110,7 @@ class GCClient extends GC
     /**
      * @param string $Address1
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setAddress1($Address1)
     {
@@ -130,7 +130,7 @@ class GCClient extends GC
     /**
      * @param string $Address2
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setAddress2($Address2)
     {
@@ -150,7 +150,7 @@ class GCClient extends GC
     /**
      * @param string $City
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setCity($City)
     {
@@ -170,7 +170,7 @@ class GCClient extends GC
     /**
      * @param string $GCTypeName
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setGCTypeName($GCTypeName)
     {
@@ -190,7 +190,7 @@ class GCClient extends GC
     /**
      * @param MailType $MailTo
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setMailTo($MailTo)
     {
@@ -210,7 +210,7 @@ class GCClient extends GC
     /**
      * @param string $PurchForAreadCode
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchForAreadCode($PurchForAreadCode)
     {
@@ -230,7 +230,7 @@ class GCClient extends GC
     /**
      * @param string $PurchForEmail
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchForEmail($PurchForEmail)
     {
@@ -250,7 +250,7 @@ class GCClient extends GC
     /**
      * @param string $PurchForFirstName
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchForFirstName($PurchForFirstName)
     {
@@ -270,7 +270,7 @@ class GCClient extends GC
     /**
      * @param string $PurchForLastName
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchForLastName($PurchForLastName)
     {
@@ -290,7 +290,7 @@ class GCClient extends GC
     /**
      * @param string $PurchForPhoneNumber
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchForPhoneNumber($PurchForPhoneNumber)
     {
@@ -310,7 +310,7 @@ class GCClient extends GC
     /**
      * @param Sex $PurchForSex
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchForSex($PurchForSex)
     {
@@ -330,7 +330,7 @@ class GCClient extends GC
     /**
      * @param string $PurchaseForMessage
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchaseForMessage($PurchaseForMessage)
     {
@@ -350,7 +350,7 @@ class GCClient extends GC
     /**
      * @param PurchaseForType $PurchaseForType
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchaseForType($PurchaseForType)
     {
@@ -370,7 +370,7 @@ class GCClient extends GC
     /**
      * @param string $PurchaseFrom
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchaseFrom($PurchaseFrom)
     {
@@ -390,7 +390,7 @@ class GCClient extends GC
     /**
      * @param string $PurchaseTo
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setPurchaseTo($PurchaseTo)
     {
@@ -410,7 +410,7 @@ class GCClient extends GC
     /**
      * @param float $ShippingFee
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setShippingFee($ShippingFee)
     {
@@ -430,7 +430,7 @@ class GCClient extends GC
     /**
      * @param string $State
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setState($State)
     {
@@ -450,7 +450,7 @@ class GCClient extends GC
     /**
      * @param string $ZipCode
      *
-     * @return \Millennium\Soap\GCClient
+     * @return GCClient
      */
     public function setZipCode($ZipCode)
     {

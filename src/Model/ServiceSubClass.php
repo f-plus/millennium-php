@@ -7,27 +7,27 @@ class ServiceSubClass
     /**
      * @var string
      */
-    protected $BackgroundColor = null;
+    protected $BackgroundColor;
 
     /**
      * @var int
      */
-    protected $ClassId = null;
+    protected $ClassId;
 
     /**
      * @var string
      */
-    protected $ForegroundColor = null;
+    protected $ForegroundColor;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var string
      */
-    protected $Name = null;
+    protected $Name;
 
     public function __construct()
     {
@@ -44,7 +44,7 @@ class ServiceSubClass
     /**
      * @param string $BackgroundColor
      *
-     * @return \Millennium\Soap\ServiceSubClass
+     * @return ServiceSubClass
      */
     public function setBackgroundColor($BackgroundColor)
     {
@@ -64,7 +64,7 @@ class ServiceSubClass
     /**
      * @param int $ClassId
      *
-     * @return \Millennium\Soap\ServiceSubClass
+     * @return ServiceSubClass
      */
     public function setClassId($ClassId)
     {
@@ -84,7 +84,7 @@ class ServiceSubClass
     /**
      * @param string $ForegroundColor
      *
-     * @return \Millennium\Soap\ServiceSubClass
+     * @return ServiceSubClass
      */
     public function setForegroundColor($ForegroundColor)
     {
@@ -104,7 +104,7 @@ class ServiceSubClass
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\ServiceSubClass
+     * @return ServiceSubClass
      */
     public function setId($Id)
     {
@@ -124,7 +124,7 @@ class ServiceSubClass
     /**
      * @param string $Name
      *
-     * @return \Millennium\Soap\ServiceSubClass
+     * @return ServiceSubClass
      */
     public function setName($Name)
     {

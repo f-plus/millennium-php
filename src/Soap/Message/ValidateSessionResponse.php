@@ -7,7 +7,7 @@ class ValidateSessionResponse
     /**
      * @var int
      */
-    protected $ValidateSessionResult = null;
+    protected $ValidateSessionResult;
 
     /**
      * @param int $ValidateSessionResult
@@ -28,7 +28,7 @@ class ValidateSessionResponse
     /**
      * @param int $ValidateSessionResult
      *
-     * @return \Millennium\Soap\ValidateSessionResponse
+     * @return ValidateSessionResponse
      */
     public function setValidateSessionResult($ValidateSessionResult)
     {

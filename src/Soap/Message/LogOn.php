@@ -7,12 +7,12 @@ class LogOn
     /**
      * @var string
      */
-    protected $user = null;
+    protected $user;
 
     /**
      * @var string
      */
-    protected $password = null;
+    protected $password;
 
     /**
      * @param string $user
@@ -35,7 +35,7 @@ class LogOn
     /**
      * @param string $user
      *
-     * @return \Millennium\Soap\LogOn
+     * @return LogOn
      */
     public function setUser($user)
     {
@@ -55,7 +55,7 @@ class LogOn
     /**
      * @param string $password
      *
-     * @return \Millennium\Soap\LogOn
+     * @return LogOn
      */
     public function setPassword($password)
     {

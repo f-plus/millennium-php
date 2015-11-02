@@ -7,7 +7,7 @@ class GetServices
     /**
      * @var int
      */
-    protected $classId = null;
+    protected $classId;
 
     /**
      * @param int $classId
@@ -28,7 +28,7 @@ class GetServices
     /**
      * @param int $classId
      *
-     * @return \Millennium\Soap\GetServices
+     * @return GetServices
      */
     public function setClassId($classId)
     {

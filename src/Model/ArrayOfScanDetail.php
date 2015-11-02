@@ -7,7 +7,7 @@ class ArrayOfScanDetail
     /**
      * @var ScanDetail[]
      */
-    protected $ScanDetail = null;
+    protected $ScanDetail;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfScanDetail
     /**
      * @param ScanDetail[] $ScanDetail
      *
-     * @return \Millennium\Soap\ArrayOfScanDetail
+     * @return ArrayOfScanDetail
      */
     public function setScanDetail(array $ScanDetail = null)
     {

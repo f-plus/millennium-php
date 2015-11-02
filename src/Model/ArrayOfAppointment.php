@@ -7,7 +7,7 @@ class ArrayOfAppointment
     /**
      * @var Appointment[]
      */
-    protected $Appointment = null;
+    protected $Appointment;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfAppointment
     /**
      * @param Appointment[] $Appointment
      *
-     * @return \Millennium\Soap\ArrayOfAppointment
+     * @return ArrayOfAppointment
      */
     public function setAppointment(array $Appointment = null)
     {

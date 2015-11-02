@@ -7,7 +7,7 @@ class GetClassOpenings
     /**
      * @var ScanHeader
      */
-    protected $scanOptions = null;
+    protected $scanOptions;
 
     /**
      * @param ScanHeader $scanOptions
@@ -28,7 +28,7 @@ class GetClassOpenings
     /**
      * @param ScanHeader $scanOptions
      *
-     * @return \Millennium\Soap\GetClassOpenings
+     * @return GetClassOpenings
      */
     public function setScanOptions($scanOptions)
     {

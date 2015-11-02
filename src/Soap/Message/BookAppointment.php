@@ -7,12 +7,12 @@ class BookAppointment
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @var Opening
      */
-    protected $openingToBook = null;
+    protected $openingToBook;
 
     /**
      * @param int     $clientId
@@ -35,7 +35,7 @@ class BookAppointment
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\BookAppointment
+     * @return BookAppointment
      */
     public function setClientId($clientId)
     {
@@ -55,7 +55,7 @@ class BookAppointment
     /**
      * @param Opening $openingToBook
      *
-     * @return \Millennium\Soap\BookAppointment
+     * @return BookAppointment
      */
     public function setOpeningToBook($openingToBook)
     {

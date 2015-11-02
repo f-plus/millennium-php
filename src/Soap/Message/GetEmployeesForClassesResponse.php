@@ -7,7 +7,7 @@ class GetEmployeesForClassesResponse
     /**
      * @var ArrayOfEmployee
      */
-    protected $GetEmployeesForClassesResult = null;
+    protected $GetEmployeesForClassesResult;
 
     /**
      * @param ArrayOfEmployee $GetEmployeesForClassesResult
@@ -28,7 +28,7 @@ class GetEmployeesForClassesResponse
     /**
      * @param ArrayOfEmployee $GetEmployeesForClassesResult
      *
-     * @return \Millennium\Soap\GetEmployeesForClassesResponse
+     * @return GetEmployeesForClassesResponse
      */
     public function setGetEmployeesForClassesResult($GetEmployeesForClassesResult)
     {

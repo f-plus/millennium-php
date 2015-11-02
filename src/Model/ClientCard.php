@@ -7,62 +7,62 @@ class ClientCard
     /**
      * @var string
      */
-    protected $AccountGUID = null;
+    protected $AccountGUID;
 
     /**
      * @var string
      */
-    protected $Address = null;
+    protected $Address;
 
     /**
      * @var string
      */
-    protected $CardCode = null;
+    protected $CardCode;
 
     /**
      * @var int
      */
-    protected $CardId = null;
+    protected $CardId;
 
     /**
      * @var string
      */
-    protected $CardLast4Numbers = null;
+    protected $CardLast4Numbers;
 
     /**
      * @var string
      */
-    protected $CardNumber = null;
+    protected $CardNumber;
 
     /**
      * @var int
      */
-    protected $ClientId = null;
+    protected $ClientId;
 
     /**
      * @var int
      */
-    protected $ExpirationMonth = null;
+    protected $ExpirationMonth;
 
     /**
      * @var int
      */
-    protected $ExpirationYear = null;
+    protected $ExpirationYear;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var string
      */
-    protected $NameOnCard = null;
+    protected $NameOnCard;
 
     /**
      * @var string
      */
-    protected $ZipCode = null;
+    protected $ZipCode;
 
     public function __construct()
     {
@@ -79,7 +79,7 @@ class ClientCard
     /**
      * @param string $AccountGUID
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setAccountGUID($AccountGUID)
     {
@@ -99,7 +99,7 @@ class ClientCard
     /**
      * @param string $Address
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setAddress($Address)
     {
@@ -119,7 +119,7 @@ class ClientCard
     /**
      * @param string $CardCode
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setCardCode($CardCode)
     {
@@ -139,7 +139,7 @@ class ClientCard
     /**
      * @param int $CardId
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setCardId($CardId)
     {
@@ -159,7 +159,7 @@ class ClientCard
     /**
      * @param string $CardLast4Numbers
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setCardLast4Numbers($CardLast4Numbers)
     {
@@ -179,7 +179,7 @@ class ClientCard
     /**
      * @param string $CardNumber
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setCardNumber($CardNumber)
     {
@@ -199,7 +199,7 @@ class ClientCard
     /**
      * @param int $ClientId
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setClientId($ClientId)
     {
@@ -219,7 +219,7 @@ class ClientCard
     /**
      * @param int $ExpirationMonth
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setExpirationMonth($ExpirationMonth)
     {
@@ -239,7 +239,7 @@ class ClientCard
     /**
      * @param int $ExpirationYear
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setExpirationYear($ExpirationYear)
     {
@@ -259,7 +259,7 @@ class ClientCard
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setId($Id)
     {
@@ -279,7 +279,7 @@ class ClientCard
     /**
      * @param string $NameOnCard
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setNameOnCard($NameOnCard)
     {
@@ -299,7 +299,7 @@ class ClientCard
     /**
      * @param string $ZipCode
      *
-     * @return \Millennium\Soap\ClientCard
+     * @return ClientCard
      */
     public function setZipCode($ZipCode)
     {

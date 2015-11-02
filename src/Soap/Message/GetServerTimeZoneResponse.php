@@ -7,7 +7,7 @@ class GetServerTimeZoneResponse
     /**
      * @var TimeZoneInfo
      */
-    protected $GetServerTimeZoneResult = null;
+    protected $GetServerTimeZoneResult;
 
     /**
      * @param TimeZoneInfo $GetServerTimeZoneResult
@@ -28,7 +28,7 @@ class GetServerTimeZoneResponse
     /**
      * @param TimeZoneInfo $GetServerTimeZoneResult
      *
-     * @return \Millennium\Soap\GetServerTimeZoneResponse
+     * @return GetServerTimeZoneResponse
      */
     public function setGetServerTimeZoneResult($GetServerTimeZoneResult)
     {

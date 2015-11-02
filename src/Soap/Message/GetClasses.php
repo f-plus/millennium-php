@@ -7,7 +7,7 @@ class GetClasses
     /**
      * @var bool
      */
-    protected $onLineOnly = null;
+    protected $onLineOnly;
 
     /**
      * @param bool $onLineOnly
@@ -28,7 +28,7 @@ class GetClasses
     /**
      * @param bool $onLineOnly
      *
-     * @return \Millennium\Soap\GetClasses
+     * @return GetClasses
      */
     public function setOnLineOnly($onLineOnly)
     {

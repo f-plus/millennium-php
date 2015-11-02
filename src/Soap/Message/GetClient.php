@@ -7,7 +7,7 @@ class GetClient
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @param int $clientId
@@ -28,7 +28,7 @@ class GetClient
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\GetClient
+     * @return GetClient
      */
     public function setClientId($clientId)
     {

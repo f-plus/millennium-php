@@ -7,22 +7,22 @@ class EftBilling extends BaseDTO
     /**
      * @var float
      */
-    protected $Amount = null;
+    protected $Amount;
 
     /**
      * @var \DateTime
      */
-    protected $HitDate = null;
+    protected $HitDate;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var BillingStatus
      */
-    protected $Status = null;
+    protected $Status;
 
     public function __construct()
     {
@@ -39,7 +39,7 @@ class EftBilling extends BaseDTO
     /**
      * @param float $Amount
      *
-     * @return \Millennium\Soap\EftBilling
+     * @return EftBilling
      */
     public function setAmount($Amount)
     {
@@ -67,7 +67,7 @@ class EftBilling extends BaseDTO
     /**
      * @param \DateTime $HitDate
      *
-     * @return \Millennium\Soap\EftBilling
+     * @return EftBilling
      */
     public function setHitDate(\DateTime $HitDate = null)
     {
@@ -91,7 +91,7 @@ class EftBilling extends BaseDTO
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\EftBilling
+     * @return EftBilling
      */
     public function setId($Id)
     {
@@ -111,7 +111,7 @@ class EftBilling extends BaseDTO
     /**
      * @param BillingStatus $Status
      *
-     * @return \Millennium\Soap\EftBilling
+     * @return EftBilling
      */
     public function setStatus($Status)
     {

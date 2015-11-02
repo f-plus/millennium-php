@@ -7,82 +7,82 @@ class Appointment extends BaseDTO
     /**
      * @var \DateTime
      */
-    protected $AppointmentDate = null;
+    protected $AppointmentDate;
 
     /**
      * @var ArrayOfAppointmentDetail
      */
-    protected $AppointmentDetails = null;
+    protected $AppointmentDetails;
 
     /**
      * @var int
      */
-    protected $BookedByLoginId = null;
+    protected $BookedByLoginId;
 
     /**
      * @var \DateTime
      */
-    protected $BookedOn = null;
+    protected $BookedOn;
 
     /**
      * @var bool
      */
-    protected $BookedOnLine = null;
+    protected $BookedOnLine;
 
     /**
      * @var bool
      */
-    protected $ChargeApptToRoom = null;
+    protected $ChargeApptToRoom;
 
     /**
      * @var string
      */
-    protected $ConfirmationTypes = null;
+    protected $ConfirmationTypes;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var bool
      */
-    protected $IsClass = null;
+    protected $IsClass;
 
     /**
      * @var \DateTime
      */
-    protected $LastChanged = null;
+    protected $LastChanged;
 
     /**
      * @var int
      */
-    protected $LastChangedByLoginId = null;
+    protected $LastChangedByLoginId;
 
     /**
      * @var string
      */
-    protected $Notes = null;
+    protected $Notes;
 
     /**
      * @var string
      */
-    protected $PayingClient = null;
+    protected $PayingClient;
 
     /**
      * @var int
      */
-    protected $PayingClientId = null;
+    protected $PayingClientId;
 
     /**
      * @var bool
      */
-    protected $PreBook = null;
+    protected $PreBook;
 
     /**
      * @var int
      */
-    protected $TotalTimeToBook = null;
+    protected $TotalTimeToBook;
 
     public function __construct()
     {
@@ -107,7 +107,7 @@ class Appointment extends BaseDTO
     /**
      * @param \DateTime $AppointmentDate
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setAppointmentDate(\DateTime $AppointmentDate = null)
     {
@@ -131,7 +131,7 @@ class Appointment extends BaseDTO
     /**
      * @param ArrayOfAppointmentDetail $AppointmentDetails
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setAppointmentDetails($AppointmentDetails)
     {
@@ -151,7 +151,7 @@ class Appointment extends BaseDTO
     /**
      * @param int $BookedByLoginId
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setBookedByLoginId($BookedByLoginId)
     {
@@ -179,7 +179,7 @@ class Appointment extends BaseDTO
     /**
      * @param \DateTime $BookedOn
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setBookedOn(\DateTime $BookedOn = null)
     {
@@ -203,7 +203,7 @@ class Appointment extends BaseDTO
     /**
      * @param bool $BookedOnLine
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setBookedOnLine($BookedOnLine)
     {
@@ -223,7 +223,7 @@ class Appointment extends BaseDTO
     /**
      * @param bool $ChargeApptToRoom
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setChargeApptToRoom($ChargeApptToRoom)
     {
@@ -243,7 +243,7 @@ class Appointment extends BaseDTO
     /**
      * @param string $ConfirmationTypes
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setConfirmationTypes($ConfirmationTypes)
     {
@@ -263,7 +263,7 @@ class Appointment extends BaseDTO
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setId($Id)
     {
@@ -283,7 +283,7 @@ class Appointment extends BaseDTO
     /**
      * @param bool $IsClass
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setIsClass($IsClass)
     {
@@ -311,7 +311,7 @@ class Appointment extends BaseDTO
     /**
      * @param \DateTime $LastChanged
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setLastChanged(\DateTime $LastChanged = null)
     {
@@ -335,7 +335,7 @@ class Appointment extends BaseDTO
     /**
      * @param int $LastChangedByLoginId
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setLastChangedByLoginId($LastChangedByLoginId)
     {
@@ -355,7 +355,7 @@ class Appointment extends BaseDTO
     /**
      * @param string $Notes
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setNotes($Notes)
     {
@@ -375,7 +375,7 @@ class Appointment extends BaseDTO
     /**
      * @param string $PayingClient
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setPayingClient($PayingClient)
     {
@@ -395,7 +395,7 @@ class Appointment extends BaseDTO
     /**
      * @param int $PayingClientId
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setPayingClientId($PayingClientId)
     {
@@ -415,7 +415,7 @@ class Appointment extends BaseDTO
     /**
      * @param bool $PreBook
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setPreBook($PreBook)
     {
@@ -435,7 +435,7 @@ class Appointment extends BaseDTO
     /**
      * @param int $TotalTimeToBook
      *
-     * @return \Millennium\Soap\Appointment
+     * @return Appointment
      */
     public function setTotalTimeToBook($TotalTimeToBook)
     {

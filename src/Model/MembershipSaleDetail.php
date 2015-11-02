@@ -7,162 +7,162 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @var BillingType
      */
-    protected $BillingType = null;
+    protected $BillingType;
 
     /**
      * @var \DateTime
      */
-    protected $CancelDate = null;
+    protected $CancelDate;
 
     /**
      * @var ArrayOfEftBilling
      */
-    protected $Efts = null;
+    protected $Efts;
 
     /**
      * @var float
      */
-    protected $EnrollmentFee = null;
+    protected $EnrollmentFee;
 
     /**
      * @var bool
      */
-    protected $HasRetailDiscountsOnFriday = null;
+    protected $HasRetailDiscountsOnFriday;
 
     /**
      * @var bool
      */
-    protected $HasRetailDiscountsOnMonday = null;
+    protected $HasRetailDiscountsOnMonday;
 
     /**
      * @var bool
      */
-    protected $HasRetailDiscountsOnSaturday = null;
+    protected $HasRetailDiscountsOnSaturday;
 
     /**
      * @var bool
      */
-    protected $HasRetailDiscountsOnSunday = null;
+    protected $HasRetailDiscountsOnSunday;
 
     /**
      * @var bool
      */
-    protected $HasRetailDiscountsOnThursday = null;
+    protected $HasRetailDiscountsOnThursday;
 
     /**
      * @var bool
      */
-    protected $HasRetailDiscountsOnTuesday = null;
+    protected $HasRetailDiscountsOnTuesday;
 
     /**
      * @var bool
      */
-    protected $HasRetailDiscountsOnWednesday = null;
+    protected $HasRetailDiscountsOnWednesday;
 
     /**
      * @var bool
      */
-    protected $HasServiceDiscountsOnFriday = null;
+    protected $HasServiceDiscountsOnFriday;
 
     /**
      * @var bool
      */
-    protected $HasServiceDiscountsOnMonday = null;
+    protected $HasServiceDiscountsOnMonday;
 
     /**
      * @var bool
      */
-    protected $HasServiceDiscountsOnSaturday = null;
+    protected $HasServiceDiscountsOnSaturday;
 
     /**
      * @var bool
      */
-    protected $HasServiceDiscountsOnSunday = null;
+    protected $HasServiceDiscountsOnSunday;
 
     /**
      * @var bool
      */
-    protected $HasServiceDiscountsOnThursday = null;
+    protected $HasServiceDiscountsOnThursday;
 
     /**
      * @var bool
      */
-    protected $HasServiceDiscountsOnTuesday = null;
+    protected $HasServiceDiscountsOnTuesday;
 
     /**
      * @var bool
      */
-    protected $HasServiceDiscountsOnWednesday = null;
+    protected $HasServiceDiscountsOnWednesday;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var bool
      */
-    protected $IsFrozen = null;
+    protected $IsFrozen;
 
     /**
      * @var bool
      */
-    protected $IsGloballyRedeemable = null;
+    protected $IsGloballyRedeemable;
 
     /**
      * @var bool
      */
-    protected $IsSuspended = null;
+    protected $IsSuspended;
 
     /**
      * @var string
      */
-    protected $Last4Account = null;
+    protected $Last4Account;
 
     /**
      * @var string
      */
-    protected $Last4CreditCard = null;
+    protected $Last4CreditCard;
 
     /**
      * @var MonthOrDay
      */
-    protected $MonthOrDay = null;
+    protected $MonthOrDay;
 
     /**
      * @var int
      */
-    protected $MonthOrDayLength = null;
+    protected $MonthOrDayLength;
 
     /**
      * @var float
      */
-    protected $PackageDiscount = null;
+    protected $PackageDiscount;
 
     /**
      * @var float
      */
-    protected $RecurFee = null;
+    protected $RecurFee;
 
     /**
      * @var float
      */
-    protected $RetailDiscount = null;
+    protected $RetailDiscount;
 
     /**
      * @var float
      */
-    protected $ServiceDiscount = null;
+    protected $ServiceDiscount;
 
     /**
      * @var float
      */
-    protected $TanningDiscount = null;
+    protected $TanningDiscount;
 
     /**
      * @var \DateTime
      */
-    protected $TerminationDate = null;
+    protected $TerminationDate;
 
     public function __construct()
     {
@@ -179,7 +179,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param BillingType $BillingType
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setBillingType($BillingType)
     {
@@ -207,7 +207,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param \DateTime $CancelDate
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setCancelDate(\DateTime $CancelDate = null)
     {
@@ -231,7 +231,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param ArrayOfEftBilling $Efts
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setEfts($Efts)
     {
@@ -251,7 +251,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param float $EnrollmentFee
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setEnrollmentFee($EnrollmentFee)
     {
@@ -271,7 +271,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasRetailDiscountsOnFriday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasRetailDiscountsOnFriday($HasRetailDiscountsOnFriday)
     {
@@ -291,7 +291,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasRetailDiscountsOnMonday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasRetailDiscountsOnMonday($HasRetailDiscountsOnMonday)
     {
@@ -311,7 +311,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasRetailDiscountsOnSaturday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasRetailDiscountsOnSaturday($HasRetailDiscountsOnSaturday)
     {
@@ -331,7 +331,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasRetailDiscountsOnSunday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasRetailDiscountsOnSunday($HasRetailDiscountsOnSunday)
     {
@@ -351,7 +351,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasRetailDiscountsOnThursday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasRetailDiscountsOnThursday($HasRetailDiscountsOnThursday)
     {
@@ -371,7 +371,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasRetailDiscountsOnTuesday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasRetailDiscountsOnTuesday($HasRetailDiscountsOnTuesday)
     {
@@ -391,7 +391,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasRetailDiscountsOnWednesday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasRetailDiscountsOnWednesday($HasRetailDiscountsOnWednesday)
     {
@@ -411,7 +411,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasServiceDiscountsOnFriday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasServiceDiscountsOnFriday($HasServiceDiscountsOnFriday)
     {
@@ -431,7 +431,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasServiceDiscountsOnMonday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasServiceDiscountsOnMonday($HasServiceDiscountsOnMonday)
     {
@@ -451,7 +451,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasServiceDiscountsOnSaturday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasServiceDiscountsOnSaturday($HasServiceDiscountsOnSaturday)
     {
@@ -471,7 +471,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasServiceDiscountsOnSunday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasServiceDiscountsOnSunday($HasServiceDiscountsOnSunday)
     {
@@ -491,7 +491,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasServiceDiscountsOnThursday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasServiceDiscountsOnThursday($HasServiceDiscountsOnThursday)
     {
@@ -511,7 +511,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasServiceDiscountsOnTuesday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasServiceDiscountsOnTuesday($HasServiceDiscountsOnTuesday)
     {
@@ -531,7 +531,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $HasServiceDiscountsOnWednesday
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setHasServiceDiscountsOnWednesday($HasServiceDiscountsOnWednesday)
     {
@@ -551,7 +551,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setId($Id)
     {
@@ -571,7 +571,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $IsFrozen
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setIsFrozen($IsFrozen)
     {
@@ -591,7 +591,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $IsGloballyRedeemable
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setIsGloballyRedeemable($IsGloballyRedeemable)
     {
@@ -611,7 +611,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param bool $IsSuspended
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setIsSuspended($IsSuspended)
     {
@@ -631,7 +631,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param string $Last4Account
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setLast4Account($Last4Account)
     {
@@ -651,7 +651,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param string $Last4CreditCard
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setLast4CreditCard($Last4CreditCard)
     {
@@ -671,7 +671,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param MonthOrDay $MonthOrDay
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setMonthOrDay($MonthOrDay)
     {
@@ -691,7 +691,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param int $MonthOrDayLength
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setMonthOrDayLength($MonthOrDayLength)
     {
@@ -711,7 +711,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param float $PackageDiscount
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setPackageDiscount($PackageDiscount)
     {
@@ -731,7 +731,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param float $RecurFee
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setRecurFee($RecurFee)
     {
@@ -751,7 +751,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param float $RetailDiscount
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setRetailDiscount($RetailDiscount)
     {
@@ -771,7 +771,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param float $ServiceDiscount
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setServiceDiscount($ServiceDiscount)
     {
@@ -791,7 +791,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param float $TanningDiscount
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setTanningDiscount($TanningDiscount)
     {
@@ -819,7 +819,7 @@ class MembershipSaleDetail extends BaseDTO
     /**
      * @param \DateTime $TerminationDate
      *
-     * @return \Millennium\Soap\MembershipSaleDetail
+     * @return MembershipSaleDetail
      */
     public function setTerminationDate(\DateTime $TerminationDate = null)
     {

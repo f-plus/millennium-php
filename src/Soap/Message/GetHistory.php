@@ -7,7 +7,7 @@ class GetHistory
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @param int $clientId
@@ -28,7 +28,7 @@ class GetHistory
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\GetHistory
+     * @return GetHistory
      */
     public function setClientId($clientId)
     {

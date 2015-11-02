@@ -7,31 +7,27 @@ class SessionClient
     /**
      * @var int
      */
-    protected $ClientId = null;
+    protected $ClientId;
 
     /**
      * @var \DateTime
      */
-    protected $ConnectedOn = null;
+    protected $ConnectedOn;
 
     /**
      * @var string
      */
-    protected $DataPath = null;
+    protected $DataPath;
 
     /**
      * @var \DateTime
      */
-    protected $ExpireOn = null;
+    protected $ExpireOn;
 
     /**
      * @var string
      */
-    protected $Id = null;
-
-    public function __construct()
-    {
-    }
+    protected $Id;
 
     /**
      * @return int
@@ -44,7 +40,7 @@ class SessionClient
     /**
      * @param int $ClientId
      *
-     * @return \Millennium\Soap\SessionClient
+     * @return SessionClient
      */
     public function setClientId($ClientId)
     {
@@ -72,7 +68,7 @@ class SessionClient
     /**
      * @param \DateTime $ConnectedOn
      *
-     * @return \Millennium\Soap\SessionClient
+     * @return SessionClient
      */
     public function setConnectedOn(\DateTime $ConnectedOn = null)
     {
@@ -96,7 +92,7 @@ class SessionClient
     /**
      * @param string $DataPath
      *
-     * @return \Millennium\Soap\SessionClient
+     * @return SessionClient
      */
     public function setDataPath($DataPath)
     {
@@ -124,7 +120,7 @@ class SessionClient
     /**
      * @param \DateTime $ExpireOn
      *
-     * @return \Millennium\Soap\SessionClient
+     * @return SessionClient
      */
     public function setExpireOn(\DateTime $ExpireOn = null)
     {
@@ -148,7 +144,7 @@ class SessionClient
     /**
      * @param string $Id
      *
-     * @return \Millennium\Soap\SessionClient
+     * @return SessionClient
      */
     public function setId($Id)
     {

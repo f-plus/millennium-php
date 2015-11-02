@@ -7,12 +7,12 @@ class GetClientCards
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @var bool
      */
-    protected $last4Only = null;
+    protected $last4Only;
 
     /**
      * @param int  $clientId
@@ -35,7 +35,7 @@ class GetClientCards
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\GetClientCards
+     * @return GetClientCards
      */
     public function setClientId($clientId)
     {
@@ -55,7 +55,7 @@ class GetClientCards
     /**
      * @param bool $last4Only
      *
-     * @return \Millennium\Soap\GetClientCards
+     * @return GetClientCards
      */
     public function setLast4Only($last4Only)
     {

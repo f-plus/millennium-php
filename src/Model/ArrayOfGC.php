@@ -7,7 +7,7 @@ class ArrayOfGC
     /**
      * @var GC[]
      */
-    protected $GC = null;
+    protected $GC;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfGC
     /**
      * @param GC[] $GC
      *
-     * @return \Millennium\Soap\ArrayOfGC
+     * @return ArrayOfGC
      */
     public function setGC(array $GC = null)
     {

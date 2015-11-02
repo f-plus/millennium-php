@@ -7,22 +7,22 @@ class SaveGC
     /**
      * @var ArrayOfGCClient
      */
-    protected $gcList = null;
+    protected $gcList;
 
     /**
      * @var ClientCard
      */
-    protected $cc = null;
+    protected $cc;
 
     /**
      * @var bool
      */
-    protected $storeClientCard = null;
+    protected $storeClientCard;
 
     /**
      * @var string
      */
-    protected $language = null;
+    protected $language;
 
     /**
      * @param ArrayOfGCClient $gcList
@@ -49,7 +49,7 @@ class SaveGC
     /**
      * @param ArrayOfGCClient $gcList
      *
-     * @return \Millennium\Soap\SaveGC
+     * @return SaveGC
      */
     public function setGcList($gcList)
     {
@@ -69,7 +69,7 @@ class SaveGC
     /**
      * @param ClientCard $cc
      *
-     * @return \Millennium\Soap\SaveGC
+     * @return SaveGC
      */
     public function setCc($cc)
     {
@@ -89,7 +89,7 @@ class SaveGC
     /**
      * @param bool $storeClientCard
      *
-     * @return \Millennium\Soap\SaveGC
+     * @return SaveGC
      */
     public function setStoreClientCard($storeClientCard)
     {
@@ -109,7 +109,7 @@ class SaveGC
     /**
      * @param string $language
      *
-     * @return \Millennium\Soap\SaveGC
+     * @return SaveGC
      */
     public function setLanguage($language)
     {

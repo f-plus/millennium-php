@@ -10,10 +10,10 @@ class Client extends \SoapClient
     private static $classmap = [
         'TimeZoneInfo' => 'FPlus\\Millennium\\Model\\TimeZoneInfo',
         'ArrayOfstring' => 'FPlus\\Millennium\\Model\\ArrayOfstring',
-        'ArrayOfKeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ' => 'FPlus\\Millennium\\Model\\ArrayOfKeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ',
-        'KeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ' => 'FPlus\\Millennium\\Model\\KeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ',
-        'ArrayOfKeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r' => 'FPlus\\Millennium\\Model\\ArrayOfKeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r',
-        'KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r' => 'FPlus\\Millennium\\Model\\KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r',
+        'ArrayOfKeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ' => 'FPlus\\Millennium\\Model\\ClientHistoryMap',
+        'KeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ' => 'FPlus\\Millennium\\Model\\DateKeyValuePair',
+        'ArrayOfKeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r' => 'FPlus\\Millennium\\Model\\HoursOfOperationMap',
+        'KeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r' => 'FPlus\\Millennium\\Model\\KeyValuePair',
         'SessionClient' => 'FPlus\\Millennium\\Model\\SessionClient',
         'CustomException' => 'FPlus\\Millennium\\Model\\CustomException',
         'Client' => 'FPlus\\Millennium\\Model\\Client',
@@ -71,8 +71,8 @@ class Client extends \SoapClient
         'LogOnResponse' => 'FPlus\\Millennium\\Soap\\Message\\LogOnResponse',
         'LogOff' => 'FPlus\\Millennium\\Soap\\Message\\LogOff',
         'LogOffResponse' => 'FPlus\\Millennium\\Soap\\Message\\LogOffResponse',
-        'RetrivePassword' => 'FPlus\\Millennium\\Soap\\Message\\RetrivePassword',
-        'RetrivePasswordResponse' => 'FPlus\\Millennium\\Soap\\Message\\RetrivePasswordResponse',
+        'RetrivePassword' => 'FPlus\\Millennium\\Soap\\Message\\RetrievePassword',
+        'RetrivePasswordResponse' => 'FPlus\\Millennium\\Soap\\Message\\RetrievePasswordResponse',
         'ValidateSession' => 'FPlus\\Millennium\\Soap\\Message\\ValidateSession',
         'ValidateSessionResponse' => 'FPlus\\Millennium\\Soap\\Message\\ValidateSessionResponse',
         'SaveClient' => 'FPlus\\Millennium\\Soap\\Message\\SaveClient',
@@ -89,8 +89,8 @@ class Client extends \SoapClient
         'GetHistoryResponse' => 'FPlus\\Millennium\\Soap\\Message\\GetHistoryResponse',
         'GetClientCards' => 'FPlus\\Millennium\\Soap\\Message\\GetClientCards',
         'GetClientCardsResponse' => 'FPlus\\Millennium\\Soap\\Message\\GetClientCardsResponse',
-        'GetCrediCardTypes' => 'FPlus\\Millennium\\Soap\\Message\\GetCrediCardTypes',
-        'GetCrediCardTypesResponse' => 'FPlus\\Millennium\\Soap\\Message\\GetCrediCardTypesResponse',
+        'GetCrediCardTypes' => 'FPlus\\Millennium\\Soap\\Message\\GetCreditCardTypes',
+        'GetCrediCardTypesResponse' => 'FPlus\\Millennium\\Soap\\Message\\GetCreditCardTypesResponse',
         'GetGCTypes' => 'FPlus\\Millennium\\Soap\\Message\\GetGCTypes',
         'GetGCTypesResponse' => 'FPlus\\Millennium\\Soap\\Message\\GetGCTypesResponse',
         'GetGiftCertificates' => 'FPlus\\Millennium\\Soap\\Message\\GetGiftCertificates',
@@ -174,11 +174,11 @@ class Client extends \SoapClient
     }
 
     /**
-     * @param RetrivePassword $parameters
+     * @param RetrievePassword $parameters
      *
-     * @return RetrivePasswordResponse
+     * @return RetrievePasswordResponse
      */
-    public function RetrivePassword(RetrivePassword $parameters)
+    public function RetrievePassword(RetrievePassword $parameters)
     {
         return $this->__soapCall('RetrivePassword', [$parameters]);
     }
@@ -264,11 +264,11 @@ class Client extends \SoapClient
     }
 
     /**
-     * @param GetCrediCardTypes $parameters
+     * @param GetCreditCardTypes $parameters
      *
-     * @return GetCrediCardTypesResponse
+     * @return GetCreditCardTypesResponse
      */
-    public function GetCrediCardTypes(GetCrediCardTypes $parameters)
+    public function GetCreditCardTypes(GetCreditCardTypes $parameters)
     {
         return $this->__soapCall('GetCrediCardTypes', [$parameters]);
     }

@@ -7,397 +7,397 @@ class Client extends BaseDTO
     /**
      * @var string
      */
-    protected $Address1 = null;
+    protected $Address1;
 
     /**
      * @var string
      */
-    protected $Address2 = null;
+    protected $Address2;
 
     /**
      * @var bool
      */
-    protected $AllowAccountCharge = null;
+    protected $AllowAccountCharge;
 
     /**
      * @var bool
      */
-    protected $AllowPoints = null;
+    protected $AllowPoints;
 
     /**
      * @var \DateTime
      */
-    protected $AnniversaryDate = null;
+    protected $AnniversaryDate;
 
     /**
      * @var \DateTime
      */
-    protected $Birthday = null;
+    protected $Birthday;
 
     /**
      * @var string
      */
-    protected $BusinessAreaCode = null;
+    protected $BusinessAreaCode;
 
     /**
      * @var string
      */
-    protected $BusinessExtension = null;
+    protected $BusinessExtension;
 
     /**
      * @var string
      */
-    protected $BusinessPhoneNumber = null;
+    protected $BusinessPhoneNumber;
 
     /**
      * @var bool
      */
-    protected $CanBookApptsOnline = null;
+    protected $CanBookApptsOnline;
 
     /**
      * @var bool
      */
-    protected $CanViewApptsOnline = null;
+    protected $CanViewApptsOnline;
 
     /**
      * @var string
      */
-    protected $CellAreaCode = null;
+    protected $CellAreaCode;
 
     /**
      * @var string
      */
-    protected $CellPhoneNumber = null;
+    protected $CellPhoneNumber;
 
     /**
      * @var bool
      */
-    protected $ChecksAllowed = null;
+    protected $ChecksAllowed;
 
     /**
      * @var string
      */
-    protected $City = null;
+    protected $City;
 
     /**
      * @var bool
      */
-    protected $ConfirmAppointments = null;
+    protected $ConfirmAppointments;
 
     /**
      * @var int
      */
-    protected $ConfirmDaysInAdvance = null;
+    protected $ConfirmDaysInAdvance;
 
     /**
      * @var bool
      */
-    protected $ConfirmViaAutoConfirmation = null;
+    protected $ConfirmViaAutoConfirmation;
 
     /**
      * @var bool
      */
-    protected $ConfirmViaBusinessPhone = null;
+    protected $ConfirmViaBusinessPhone;
 
     /**
      * @var bool
      */
-    protected $ConfirmViaCellPhone = null;
+    protected $ConfirmViaCellPhone;
 
     /**
      * @var bool
      */
-    protected $ConfirmViaEmail = null;
+    protected $ConfirmViaEmail;
 
     /**
      * @var bool
      */
-    protected $ConfirmViaFax = null;
+    protected $ConfirmViaFax;
 
     /**
      * @var bool
      */
-    protected $ConfirmViaHomePhone = null;
+    protected $ConfirmViaHomePhone;
 
     /**
      * @var bool
      */
-    protected $ConfirmViaSMS = null;
+    protected $ConfirmViaSMS;
 
     /**
      * @var string
      */
-    protected $ConfirmationSequence = null;
+    protected $ConfirmationSequence;
 
     /**
      * @var float
      */
-    protected $CreditLimit = null;
+    protected $CreditLimit;
 
     /**
      * @var \DateTime
      */
-    protected $DateCreated = null;
+    protected $DateCreated;
 
     /**
      * @var bool
      */
-    protected $DisplayNotesInAppointmentBook = null;
+    protected $DisplayNotesInAppointmentBook;
 
     /**
      * @var bool
      */
-    protected $DisplayNotesInRegister = null;
+    protected $DisplayNotesInRegister;
 
     /**
      * @var bool
      */
-    protected $DisplayUDFInAppointmentBook = null;
+    protected $DisplayUDFInAppointmentBook;
 
     /**
      * @var bool
      */
-    protected $DisplayUDFInRegister = null;
+    protected $DisplayUDFInRegister;
 
     /**
      * @var string
      */
-    protected $DotNetPassword = null;
+    protected $DotNetPassword;
 
     /**
      * @var string
      */
-    protected $EmailAddress = null;
+    protected $EmailAddress;
 
     /**
      * @var string
      */
-    protected $FaxAreaCode = null;
+    protected $FaxAreaCode;
 
     /**
      * @var string
      */
-    protected $FaxPhoneNumber = null;
+    protected $FaxPhoneNumber;
 
     /**
      * @var string
      */
-    protected $FirstName = null;
+    protected $FirstName;
 
     /**
      * @var \DateTime
      */
-    protected $FirstVisitDate = null;
+    protected $FirstVisitDate;
 
     /**
      * @var int
      */
-    protected $GuestId = null;
+    protected $GuestId;
 
     /**
      * @var bool
      */
-    protected $HasChildren = null;
+    protected $HasChildren;
 
     /**
      * @var bool
      */
-    protected $HasCreditCardOnFile = null;
+    protected $HasCreditCardOnFile;
 
     /**
      * @var bool
      */
-    protected $HasMemberships = null;
+    protected $HasMemberships;
 
     /**
      * @var string
      */
-    protected $HomeAreaCode = null;
+    protected $HomeAreaCode;
 
     /**
      * @var string
      */
-    protected $HomePhoneNumber = null;
+    protected $HomePhoneNumber;
 
     /**
      * @var string
      */
-    protected $HotelRoomNumber = null;
+    protected $HotelRoomNumber;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var bool
      */
-    protected $IsCreditCardValid = null;
+    protected $IsCreditCardValid;
 
     /**
      * @var bool
      */
-    protected $IsInactive = null;
+    protected $IsInactive;
 
     /**
      * @var bool
      */
-    protected $IsMarried = null;
+    protected $IsMarried;
 
     /**
      * @var bool
      */
-    protected $IsNonDeliverableAddress = null;
+    protected $IsNonDeliverableAddress;
 
     /**
      * @var bool
      */
-    protected $IsPrimaryResidence = null;
+    protected $IsPrimaryResidence;
 
     /**
      * @var \DateTime
      */
-    protected $LastChangedDateTime = null;
+    protected $LastChangedDateTime;
 
     /**
      * @var string
      */
-    protected $LastName = null;
+    protected $LastName;
 
     /**
      * @var \DateTime
      */
-    protected $LastVisitDate = null;
+    protected $LastVisitDate;
 
     /**
      * @var string
      */
-    protected $LicenseNumber = null;
+    protected $LicenseNumber;
 
     /**
      * @var \DateTime
      */
-    protected $MemberExpirationDate = null;
+    protected $MemberExpirationDate;
 
     /**
      * @var \DateTime
      */
-    protected $MemberSince = null;
+    protected $MemberSince;
 
     /**
      * @var MemberStatus
      */
-    protected $MemberStatus = null;
+    protected $MemberStatus;
 
     /**
      * @var MembershipSale
      */
-    protected $Membership = null;
+    protected $Membership;
 
     /**
      * @var MembershipBilling
      */
-    protected $MembershipBillingType = null;
+    protected $MembershipBillingType;
 
     /**
      * @var int
      */
-    protected $MembershipId = null;
+    protected $MembershipId;
 
     /**
      * @var string
      */
-    protected $MembershipName = null;
+    protected $MembershipName;
 
     /**
      * @var float
      */
-    protected $NextPaymentAmount = null;
+    protected $NextPaymentAmount;
 
     /**
      * @var \DateTime
      */
-    protected $NextPaymentDate = null;
+    protected $NextPaymentDate;
 
     /**
      * @var bool
      */
-    protected $NoMailingsAllowed = null;
+    protected $NoMailingsAllowed;
 
     /**
      * @var string
      */
-    protected $Notes = null;
+    protected $Notes;
 
     /**
      * @var int
      */
-    protected $NumberOfVisits = null;
+    protected $NumberOfVisits;
 
     /**
      * @var int
      */
-    protected $Points = null;
+    protected $Points;
 
     /**
      * @var string
      */
-    protected $PostalSortCode = null;
+    protected $PostalSortCode;
 
     /**
      * @var int
      */
-    protected $PrimaryEmployeeId = null;
+    protected $PrimaryEmployeeId;
 
     /**
      * @var int
      */
-    protected $ProfessionId = null;
+    protected $ProfessionId;
 
     /**
      * @var int
      */
-    protected $ReferralTypeId = null;
+    protected $ReferralTypeId;
 
     /**
      * @var int
      */
-    protected $ReferredByClientId = null;
+    protected $ReferredByClientId;
 
     /**
      * @var bool
      */
-    protected $Restricted = null;
+    protected $Restricted;
 
     /**
      * @var bool
      */
-    protected $SendEmails = null;
+    protected $SendEmails;
 
     /**
      * @var bool
      */
-    protected $SendSMS = null;
+    protected $SendSMS;
 
     /**
      * @var Sex
      */
-    protected $Sex = null;
+    protected $Sex;
 
     /**
      * @var string
      */
-    protected $State = null;
+    protected $State;
 
     /**
      * @var int
      */
-    protected $TermId = null;
+    protected $TermId;
 
     /**
      * @var string
      */
-    protected $ZipCode = null;
+    protected $ZipCode;
 
     public function __construct()
     {
@@ -414,7 +414,7 @@ class Client extends BaseDTO
     /**
      * @param string $Address1
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setAddress1($Address1)
     {
@@ -434,7 +434,7 @@ class Client extends BaseDTO
     /**
      * @param string $Address2
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setAddress2($Address2)
     {
@@ -454,7 +454,7 @@ class Client extends BaseDTO
     /**
      * @param bool $AllowAccountCharge
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setAllowAccountCharge($AllowAccountCharge)
     {
@@ -474,7 +474,7 @@ class Client extends BaseDTO
     /**
      * @param bool $AllowPoints
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setAllowPoints($AllowPoints)
     {
@@ -502,7 +502,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $AnniversaryDate
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setAnniversaryDate(\DateTime $AnniversaryDate = null)
     {
@@ -534,7 +534,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $Birthday
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setBirthday(\DateTime $Birthday = null)
     {
@@ -558,7 +558,7 @@ class Client extends BaseDTO
     /**
      * @param string $BusinessAreaCode
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setBusinessAreaCode($BusinessAreaCode)
     {
@@ -578,7 +578,7 @@ class Client extends BaseDTO
     /**
      * @param string $BusinessExtension
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setBusinessExtension($BusinessExtension)
     {
@@ -598,7 +598,7 @@ class Client extends BaseDTO
     /**
      * @param string $BusinessPhoneNumber
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setBusinessPhoneNumber($BusinessPhoneNumber)
     {
@@ -618,7 +618,7 @@ class Client extends BaseDTO
     /**
      * @param bool $CanBookApptsOnline
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setCanBookApptsOnline($CanBookApptsOnline)
     {
@@ -638,7 +638,7 @@ class Client extends BaseDTO
     /**
      * @param bool $CanViewApptsOnline
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setCanViewApptsOnline($CanViewApptsOnline)
     {
@@ -658,7 +658,7 @@ class Client extends BaseDTO
     /**
      * @param string $CellAreaCode
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setCellAreaCode($CellAreaCode)
     {
@@ -678,7 +678,7 @@ class Client extends BaseDTO
     /**
      * @param string $CellPhoneNumber
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setCellPhoneNumber($CellPhoneNumber)
     {
@@ -698,7 +698,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ChecksAllowed
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setChecksAllowed($ChecksAllowed)
     {
@@ -718,7 +718,7 @@ class Client extends BaseDTO
     /**
      * @param string $City
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setCity($City)
     {
@@ -738,7 +738,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmAppointments
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmAppointments($ConfirmAppointments)
     {
@@ -758,7 +758,7 @@ class Client extends BaseDTO
     /**
      * @param int $ConfirmDaysInAdvance
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmDaysInAdvance($ConfirmDaysInAdvance)
     {
@@ -778,7 +778,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmViaAutoConfirmation
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmViaAutoConfirmation($ConfirmViaAutoConfirmation)
     {
@@ -798,7 +798,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmViaBusinessPhone
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmViaBusinessPhone($ConfirmViaBusinessPhone)
     {
@@ -818,7 +818,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmViaCellPhone
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmViaCellPhone($ConfirmViaCellPhone)
     {
@@ -838,7 +838,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmViaEmail
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmViaEmail($ConfirmViaEmail)
     {
@@ -858,7 +858,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmViaFax
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmViaFax($ConfirmViaFax)
     {
@@ -878,7 +878,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmViaHomePhone
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmViaHomePhone($ConfirmViaHomePhone)
     {
@@ -898,7 +898,7 @@ class Client extends BaseDTO
     /**
      * @param bool $ConfirmViaSMS
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmViaSMS($ConfirmViaSMS)
     {
@@ -918,7 +918,7 @@ class Client extends BaseDTO
     /**
      * @param string $ConfirmationSequence
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setConfirmationSequence($ConfirmationSequence)
     {
@@ -938,7 +938,7 @@ class Client extends BaseDTO
     /**
      * @param float $CreditLimit
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setCreditLimit($CreditLimit)
     {
@@ -966,7 +966,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $DateCreated
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setDateCreated(\DateTime $DateCreated = null)
     {
@@ -990,7 +990,7 @@ class Client extends BaseDTO
     /**
      * @param bool $DisplayNotesInAppointmentBook
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setDisplayNotesInAppointmentBook($DisplayNotesInAppointmentBook)
     {
@@ -1010,7 +1010,7 @@ class Client extends BaseDTO
     /**
      * @param bool $DisplayNotesInRegister
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setDisplayNotesInRegister($DisplayNotesInRegister)
     {
@@ -1030,7 +1030,7 @@ class Client extends BaseDTO
     /**
      * @param bool $DisplayUDFInAppointmentBook
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setDisplayUDFInAppointmentBook($DisplayUDFInAppointmentBook)
     {
@@ -1050,7 +1050,7 @@ class Client extends BaseDTO
     /**
      * @param bool $DisplayUDFInRegister
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setDisplayUDFInRegister($DisplayUDFInRegister)
     {
@@ -1070,7 +1070,7 @@ class Client extends BaseDTO
     /**
      * @param string $DotNetPassword
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setDotNetPassword($DotNetPassword)
     {
@@ -1090,7 +1090,7 @@ class Client extends BaseDTO
     /**
      * @param string $EmailAddress
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setEmailAddress($EmailAddress)
     {
@@ -1110,7 +1110,7 @@ class Client extends BaseDTO
     /**
      * @param string $FaxAreaCode
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setFaxAreaCode($FaxAreaCode)
     {
@@ -1130,7 +1130,7 @@ class Client extends BaseDTO
     /**
      * @param string $FaxPhoneNumber
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setFaxPhoneNumber($FaxPhoneNumber)
     {
@@ -1150,7 +1150,7 @@ class Client extends BaseDTO
     /**
      * @param string $FirstName
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setFirstName($FirstName)
     {
@@ -1178,7 +1178,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $FirstVisitDate
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setFirstVisitDate(\DateTime $FirstVisitDate = null)
     {
@@ -1202,7 +1202,7 @@ class Client extends BaseDTO
     /**
      * @param int $GuestId
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setGuestId($GuestId)
     {
@@ -1222,7 +1222,7 @@ class Client extends BaseDTO
     /**
      * @param bool $HasChildren
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setHasChildren($HasChildren)
     {
@@ -1242,7 +1242,7 @@ class Client extends BaseDTO
     /**
      * @param bool $HasCreditCardOnFile
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setHasCreditCardOnFile($HasCreditCardOnFile)
     {
@@ -1262,7 +1262,7 @@ class Client extends BaseDTO
     /**
      * @param bool $HasMemberships
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setHasMemberships($HasMemberships)
     {
@@ -1282,7 +1282,7 @@ class Client extends BaseDTO
     /**
      * @param string $HomeAreaCode
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setHomeAreaCode($HomeAreaCode)
     {
@@ -1302,7 +1302,7 @@ class Client extends BaseDTO
     /**
      * @param string $HomePhoneNumber
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setHomePhoneNumber($HomePhoneNumber)
     {
@@ -1322,7 +1322,7 @@ class Client extends BaseDTO
     /**
      * @param string $HotelRoomNumber
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setHotelRoomNumber($HotelRoomNumber)
     {
@@ -1342,7 +1342,7 @@ class Client extends BaseDTO
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setId($Id)
     {
@@ -1362,7 +1362,7 @@ class Client extends BaseDTO
     /**
      * @param bool $IsCreditCardValid
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setIsCreditCardValid($IsCreditCardValid)
     {
@@ -1382,7 +1382,7 @@ class Client extends BaseDTO
     /**
      * @param bool $IsInactive
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setIsInactive($IsInactive)
     {
@@ -1402,7 +1402,7 @@ class Client extends BaseDTO
     /**
      * @param bool $IsMarried
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setIsMarried($IsMarried)
     {
@@ -1422,7 +1422,7 @@ class Client extends BaseDTO
     /**
      * @param bool $IsNonDeliverableAddress
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setIsNonDeliverableAddress($IsNonDeliverableAddress)
     {
@@ -1442,7 +1442,7 @@ class Client extends BaseDTO
     /**
      * @param bool $IsPrimaryResidence
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setIsPrimaryResidence($IsPrimaryResidence)
     {
@@ -1470,7 +1470,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $LastChangedDateTime
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setLastChangedDateTime(\DateTime $LastChangedDateTime = null)
     {
@@ -1494,7 +1494,7 @@ class Client extends BaseDTO
     /**
      * @param string $LastName
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setLastName($LastName)
     {
@@ -1522,7 +1522,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $LastVisitDate
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setLastVisitDate(\DateTime $LastVisitDate = null)
     {
@@ -1546,7 +1546,7 @@ class Client extends BaseDTO
     /**
      * @param string $LicenseNumber
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setLicenseNumber($LicenseNumber)
     {
@@ -1574,7 +1574,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $MemberExpirationDate
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setMemberExpirationDate(\DateTime $MemberExpirationDate = null)
     {
@@ -1606,7 +1606,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $MemberSince
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setMemberSince(\DateTime $MemberSince = null)
     {
@@ -1630,7 +1630,7 @@ class Client extends BaseDTO
     /**
      * @param MemberStatus $MemberStatus
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setMemberStatus($MemberStatus)
     {
@@ -1650,7 +1650,7 @@ class Client extends BaseDTO
     /**
      * @param MembershipSale $Membership
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setMembership($Membership)
     {
@@ -1670,7 +1670,7 @@ class Client extends BaseDTO
     /**
      * @param MembershipBilling $MembershipBillingType
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setMembershipBillingType($MembershipBillingType)
     {
@@ -1690,7 +1690,7 @@ class Client extends BaseDTO
     /**
      * @param int $MembershipId
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setMembershipId($MembershipId)
     {
@@ -1710,7 +1710,7 @@ class Client extends BaseDTO
     /**
      * @param string $MembershipName
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setMembershipName($MembershipName)
     {
@@ -1730,7 +1730,7 @@ class Client extends BaseDTO
     /**
      * @param float $NextPaymentAmount
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setNextPaymentAmount($NextPaymentAmount)
     {
@@ -1758,7 +1758,7 @@ class Client extends BaseDTO
     /**
      * @param \DateTime $NextPaymentDate
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setNextPaymentDate(\DateTime $NextPaymentDate = null)
     {
@@ -1782,7 +1782,7 @@ class Client extends BaseDTO
     /**
      * @param bool $NoMailingsAllowed
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setNoMailingsAllowed($NoMailingsAllowed)
     {
@@ -1802,7 +1802,7 @@ class Client extends BaseDTO
     /**
      * @param string $Notes
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setNotes($Notes)
     {
@@ -1822,7 +1822,7 @@ class Client extends BaseDTO
     /**
      * @param int $NumberOfVisits
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setNumberOfVisits($NumberOfVisits)
     {
@@ -1842,7 +1842,7 @@ class Client extends BaseDTO
     /**
      * @param int $Points
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setPoints($Points)
     {
@@ -1862,7 +1862,7 @@ class Client extends BaseDTO
     /**
      * @param string $PostalSortCode
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setPostalSortCode($PostalSortCode)
     {
@@ -1882,7 +1882,7 @@ class Client extends BaseDTO
     /**
      * @param int $PrimaryEmployeeId
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setPrimaryEmployeeId($PrimaryEmployeeId)
     {
@@ -1902,7 +1902,7 @@ class Client extends BaseDTO
     /**
      * @param int $ProfessionId
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setProfessionId($ProfessionId)
     {
@@ -1922,7 +1922,7 @@ class Client extends BaseDTO
     /**
      * @param int $ReferralTypeId
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setReferralTypeId($ReferralTypeId)
     {
@@ -1942,7 +1942,7 @@ class Client extends BaseDTO
     /**
      * @param int $ReferredByClientId
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setReferredByClientId($ReferredByClientId)
     {
@@ -1962,7 +1962,7 @@ class Client extends BaseDTO
     /**
      * @param bool $Restricted
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setRestricted($Restricted)
     {
@@ -1982,7 +1982,7 @@ class Client extends BaseDTO
     /**
      * @param bool $SendEmails
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setSendEmails($SendEmails)
     {
@@ -2002,7 +2002,7 @@ class Client extends BaseDTO
     /**
      * @param bool $SendSMS
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setSendSMS($SendSMS)
     {
@@ -2022,7 +2022,7 @@ class Client extends BaseDTO
     /**
      * @param Sex $Sex
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setSex($Sex)
     {
@@ -2042,7 +2042,7 @@ class Client extends BaseDTO
     /**
      * @param string $State
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setState($State)
     {
@@ -2062,7 +2062,7 @@ class Client extends BaseDTO
     /**
      * @param int $TermId
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setTermId($TermId)
     {
@@ -2082,7 +2082,7 @@ class Client extends BaseDTO
     /**
      * @param string $ZipCode
      *
-     * @return \Millennium\Soap\Client
+     * @return Client
      */
     public function setZipCode($ZipCode)
     {

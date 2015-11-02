@@ -7,7 +7,7 @@ class RetrivePasswordResponse
     /**
      * @var bool
      */
-    protected $RetrivePasswordResult = null;
+    protected $RetrivePasswordResult;
 
     /**
      * @param bool $RetrivePasswordResult
@@ -28,7 +28,7 @@ class RetrivePasswordResponse
     /**
      * @param bool $RetrivePasswordResult
      *
-     * @return \Millennium\Soap\RetrivePasswordResponse
+     * @return RetrivePasswordResponse
      */
     public function setRetrivePasswordResult($RetrivePasswordResult)
     {

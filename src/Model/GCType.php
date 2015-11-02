@@ -7,52 +7,52 @@ class GCType extends BaseDTO
     /**
      * @var \DateTime
      */
-    protected $CreatedOn = null;
+    protected $CreatedOn;
 
     /**
      * @var float
      */
-    protected $DefaultPrice = null;
+    protected $DefaultPrice;
 
     /**
      * @var float
      */
-    protected $DefaultValue = null;
+    protected $DefaultValue;
 
     /**
      * @var int
      */
-    protected $ExpireWeeks = null;
+    protected $ExpireWeeks;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var bool
      */
-    protected $Inactive = null;
+    protected $Inactive;
 
     /**
      * @var \DateTime
      */
-    protected $LastChanged = null;
+    protected $LastChanged;
 
     /**
      * @var int
      */
-    protected $LastChangedById = null;
+    protected $LastChangedById;
 
     /**
      * @var string
      */
-    protected $Name = null;
+    protected $Name;
 
     /**
      * @var \DateTime
      */
-    protected $ValidFrom = null;
+    protected $ValidFrom;
 
     public function __construct()
     {
@@ -77,7 +77,7 @@ class GCType extends BaseDTO
     /**
      * @param \DateTime $CreatedOn
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setCreatedOn(\DateTime $CreatedOn = null)
     {
@@ -101,7 +101,7 @@ class GCType extends BaseDTO
     /**
      * @param float $DefaultPrice
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setDefaultPrice($DefaultPrice)
     {
@@ -121,7 +121,7 @@ class GCType extends BaseDTO
     /**
      * @param float $DefaultValue
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setDefaultValue($DefaultValue)
     {
@@ -141,7 +141,7 @@ class GCType extends BaseDTO
     /**
      * @param int $ExpireWeeks
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setExpireWeeks($ExpireWeeks)
     {
@@ -161,7 +161,7 @@ class GCType extends BaseDTO
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setId($Id)
     {
@@ -181,7 +181,7 @@ class GCType extends BaseDTO
     /**
      * @param bool $Inactive
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setInactive($Inactive)
     {
@@ -209,7 +209,7 @@ class GCType extends BaseDTO
     /**
      * @param \DateTime $LastChanged
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setLastChanged(\DateTime $LastChanged = null)
     {
@@ -233,7 +233,7 @@ class GCType extends BaseDTO
     /**
      * @param int $LastChangedById
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setLastChangedById($LastChangedById)
     {
@@ -253,7 +253,7 @@ class GCType extends BaseDTO
     /**
      * @param string $Name
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setName($Name)
     {
@@ -281,7 +281,7 @@ class GCType extends BaseDTO
     /**
      * @param \DateTime $ValidFrom
      *
-     * @return \Millennium\Soap\GCType
+     * @return GCType
      */
     public function setValidFrom(\DateTime $ValidFrom = null)
     {

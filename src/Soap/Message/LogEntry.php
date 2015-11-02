@@ -7,12 +7,12 @@ class LogEntry
     /**
      * @var LogType
      */
-    protected $type = null;
+    protected $type;
 
     /**
      * @var LogEntry
      */
-    protected $entry = null;
+    protected $entry;
 
     /**
      * @param LogType  $type
@@ -35,7 +35,7 @@ class LogEntry
     /**
      * @param LogType $type
      *
-     * @return \Millennium\Soap\LogEntry
+     * @return LogEntry
      */
     public function setType($type)
     {
@@ -55,7 +55,7 @@ class LogEntry
     /**
      * @param LogEntry $entry
      *
-     * @return \Millennium\Soap\LogEntry
+     * @return LogEntry
      */
     public function setEntry($entry)
     {

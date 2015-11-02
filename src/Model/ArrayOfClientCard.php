@@ -7,7 +7,7 @@ class ArrayOfClientCard
     /**
      * @var ClientCard[]
      */
-    protected $ClientCard = null;
+    protected $ClientCard;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfClientCard
     /**
      * @param ClientCard[] $ClientCard
      *
-     * @return \Millennium\Soap\ArrayOfClientCard
+     * @return ArrayOfClientCard
      */
     public function setClientCard(array $ClientCard = null)
     {

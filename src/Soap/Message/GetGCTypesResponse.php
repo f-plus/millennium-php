@@ -7,7 +7,7 @@ class GetGCTypesResponse
     /**
      * @var ArrayOfGCType
      */
-    protected $GetGCTypesResult = null;
+    protected $GetGCTypesResult;
 
     /**
      * @param ArrayOfGCType $GetGCTypesResult
@@ -28,7 +28,7 @@ class GetGCTypesResponse
     /**
      * @param ArrayOfGCType $GetGCTypesResult
      *
-     * @return \Millennium\Soap\GetGCTypesResponse
+     * @return GetGCTypesResponse
      */
     public function setGetGCTypesResult($GetGCTypesResult)
     {

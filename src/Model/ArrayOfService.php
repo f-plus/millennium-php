@@ -7,7 +7,7 @@ class ArrayOfService
     /**
      * @var Service[]
      */
-    protected $Service = null;
+    protected $Service;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfService
     /**
      * @param Service[] $Service
      *
-     * @return \Millennium\Soap\ArrayOfService
+     * @return ArrayOfService
      */
     public function setService(array $Service = null)
     {

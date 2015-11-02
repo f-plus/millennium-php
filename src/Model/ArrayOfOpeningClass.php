@@ -7,7 +7,7 @@ class ArrayOfOpeningClass
     /**
      * @var OpeningClass[]
      */
-    protected $OpeningClass = null;
+    protected $OpeningClass;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfOpeningClass
     /**
      * @param OpeningClass[] $OpeningClass
      *
-     * @return \Millennium\Soap\ArrayOfOpeningClass
+     * @return ArrayOfOpeningClass
      */
     public function setOpeningClass(array $OpeningClass = null)
     {

@@ -7,97 +7,97 @@ class OpeningDetail extends BaseDTO
     /**
      * @var int
      */
-    protected $AppointmentTypeId = null;
+    protected $AppointmentTypeId;
 
     /**
      * @var int
      */
-    protected $ChoiceNumber = null;
+    protected $ChoiceNumber;
 
     /**
      * @var int
      */
-    protected $ClientId = null;
+    protected $ClientId;
 
     /**
      * @var int
      */
-    protected $EmployeeId = null;
+    protected $EmployeeId;
 
     /**
      * @var string
      */
-    protected $EmployeeImageUrl = null;
+    protected $EmployeeImageUrl;
 
     /**
      * @var string
      */
-    protected $EmployeeName = null;
+    protected $EmployeeName;
 
     /**
      * @var \DateTime
      */
-    protected $EndDateTime = null;
+    protected $EndDateTime;
 
     /**
      * @var float
      */
-    protected $FinishLength = null;
+    protected $FinishLength;
 
     /**
      * @var float
      */
-    protected $GapLength = null;
+    protected $GapLength;
 
     /**
      * @var int
      */
-    protected $GenderId = null;
+    protected $GenderId;
 
     /**
      * @var int
      */
-    protected $OrderNumber = null;
+    protected $OrderNumber;
 
     /**
      * @var float
      */
-    protected $Price = null;
+    protected $Price;
 
     /**
      * @var int
      */
-    protected $ResourceId = null;
+    protected $ResourceId;
 
     /**
      * @var string
      */
-    protected $ResourceName = null;
+    protected $ResourceName;
 
     /**
      * @var int
      */
-    protected $ServiceId = null;
+    protected $ServiceId;
 
     /**
      * @var string
      */
-    protected $ServiceImageUrl = null;
+    protected $ServiceImageUrl;
 
     /**
      * @var string
      */
-    protected $ServiceName = null;
+    protected $ServiceName;
 
     /**
      * @var \DateTime
      */
-    protected $StartDateTime = null;
+    protected $StartDateTime;
 
     /**
      * @var float
      */
-    protected $StartLength = null;
+    protected $StartLength;
 
     public function __construct()
     {
@@ -114,7 +114,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $AppointmentTypeId
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setAppointmentTypeId($AppointmentTypeId)
     {
@@ -134,7 +134,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $ChoiceNumber
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setChoiceNumber($ChoiceNumber)
     {
@@ -154,7 +154,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $ClientId
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setClientId($ClientId)
     {
@@ -174,7 +174,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $EmployeeId
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setEmployeeId($EmployeeId)
     {
@@ -194,7 +194,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param string $EmployeeImageUrl
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setEmployeeImageUrl($EmployeeImageUrl)
     {
@@ -214,7 +214,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param string $EmployeeName
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setEmployeeName($EmployeeName)
     {
@@ -242,7 +242,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param \DateTime $EndDateTime
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setEndDateTime(\DateTime $EndDateTime = null)
     {
@@ -266,7 +266,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param float $FinishLength
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setFinishLength($FinishLength)
     {
@@ -286,7 +286,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param float $GapLength
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setGapLength($GapLength)
     {
@@ -306,7 +306,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $GenderId
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setGenderId($GenderId)
     {
@@ -326,7 +326,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $OrderNumber
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setOrderNumber($OrderNumber)
     {
@@ -346,7 +346,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param float $Price
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setPrice($Price)
     {
@@ -366,7 +366,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $ResourceId
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setResourceId($ResourceId)
     {
@@ -386,7 +386,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param string $ResourceName
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setResourceName($ResourceName)
     {
@@ -406,7 +406,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param int $ServiceId
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setServiceId($ServiceId)
     {
@@ -426,7 +426,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param string $ServiceImageUrl
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setServiceImageUrl($ServiceImageUrl)
     {
@@ -446,7 +446,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param string $ServiceName
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setServiceName($ServiceName)
     {
@@ -474,7 +474,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param \DateTime $StartDateTime
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setStartDateTime(\DateTime $StartDateTime = null)
     {
@@ -498,7 +498,7 @@ class OpeningDetail extends BaseDTO
     /**
      * @param float $StartLength
      *
-     * @return \Millennium\Soap\OpeningDetail
+     * @return OpeningDetail
      */
     public function setStartLength($StartLength)
     {

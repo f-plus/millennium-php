@@ -7,22 +7,22 @@ class CreditCardType
     /**
      * @var string
      */
-    protected $Code = null;
+    protected $Code;
 
     /**
      * @var string
      */
-    protected $DisplayName = null;
+    protected $DisplayName;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var string
      */
-    protected $Logo = null;
+    protected $Logo;
 
     public function __construct()
     {
@@ -39,7 +39,7 @@ class CreditCardType
     /**
      * @param string $Code
      *
-     * @return \Millennium\Soap\CreditCardType
+     * @return CreditCardType
      */
     public function setCode($Code)
     {
@@ -59,7 +59,7 @@ class CreditCardType
     /**
      * @param string $DisplayName
      *
-     * @return \Millennium\Soap\CreditCardType
+     * @return CreditCardType
      */
     public function setDisplayName($DisplayName)
     {
@@ -79,7 +79,7 @@ class CreditCardType
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\CreditCardType
+     * @return CreditCardType
      */
     public function setId($Id)
     {
@@ -99,7 +99,7 @@ class CreditCardType
     /**
      * @param string $Logo
      *
-     * @return \Millennium\Soap\CreditCardType
+     * @return CreditCardType
      */
     public function setLogo($Logo)
     {

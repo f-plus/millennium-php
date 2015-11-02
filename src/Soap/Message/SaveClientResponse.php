@@ -7,7 +7,7 @@ class SaveClientResponse
     /**
      * @var int
      */
-    protected $SaveClientResult = null;
+    protected $SaveClientResult;
 
     /**
      * @param int $SaveClientResult
@@ -28,7 +28,7 @@ class SaveClientResponse
     /**
      * @param int $SaveClientResult
      *
-     * @return \Millennium\Soap\SaveClientResponse
+     * @return SaveClientResponse
      */
     public function setSaveClientResult($SaveClientResult)
     {

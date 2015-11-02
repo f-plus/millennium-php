@@ -7,62 +7,62 @@ class OpeningClass extends BaseDTO
     /**
      * @var int
      */
-    protected $ClassBooked = null;
+    protected $ClassBooked;
 
     /**
      * @var int
      */
-    protected $ClassId = null;
+    protected $ClassId;
 
     /**
      * @var string
      */
-    protected $ClassImageUrl = null;
+    protected $ClassImageUrl;
 
     /**
      * @var string
      */
-    protected $ClassName = null;
+    protected $ClassName;
 
     /**
      * @var int
      */
-    protected $ClassTotal = null;
+    protected $ClassTotal;
 
     /**
      * @var int
      */
-    protected $ClientId = null;
+    protected $ClientId;
 
     /**
      * @var int
      */
-    protected $EmployeeId = null;
+    protected $EmployeeId;
 
     /**
      * @var string
      */
-    protected $EmployeeImageUrl = null;
+    protected $EmployeeImageUrl;
 
     /**
      * @var string
      */
-    protected $EmployeeName = null;
+    protected $EmployeeName;
 
     /**
      * @var \DateTime
      */
-    protected $EndDateTime = null;
+    protected $EndDateTime;
 
     /**
      * @var int
      */
-    protected $HeaderId = null;
+    protected $HeaderId;
 
     /**
      * @var \DateTime
      */
-    protected $StartDateTime = null;
+    protected $StartDateTime;
 
     public function __construct()
     {
@@ -79,7 +79,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param int $ClassBooked
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setClassBooked($ClassBooked)
     {
@@ -99,7 +99,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param int $ClassId
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setClassId($ClassId)
     {
@@ -119,7 +119,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param string $ClassImageUrl
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setClassImageUrl($ClassImageUrl)
     {
@@ -139,7 +139,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param string $ClassName
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setClassName($ClassName)
     {
@@ -159,7 +159,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param int $ClassTotal
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setClassTotal($ClassTotal)
     {
@@ -179,7 +179,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param int $ClientId
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setClientId($ClientId)
     {
@@ -199,7 +199,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param int $EmployeeId
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setEmployeeId($EmployeeId)
     {
@@ -219,7 +219,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param string $EmployeeImageUrl
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setEmployeeImageUrl($EmployeeImageUrl)
     {
@@ -239,7 +239,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param string $EmployeeName
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setEmployeeName($EmployeeName)
     {
@@ -267,7 +267,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param \DateTime $EndDateTime
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setEndDateTime(\DateTime $EndDateTime = null)
     {
@@ -291,7 +291,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param int $HeaderId
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setHeaderId($HeaderId)
     {
@@ -319,7 +319,7 @@ class OpeningClass extends BaseDTO
     /**
      * @param \DateTime $StartDateTime
      *
-     * @return \Millennium\Soap\OpeningClass
+     * @return OpeningClass
      */
     public function setStartDateTime(\DateTime $StartDateTime = null)
     {

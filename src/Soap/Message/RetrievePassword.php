@@ -7,12 +7,12 @@ class RetrivePassword
     /**
      * @var string
      */
-    protected $email = null;
+    protected $email;
 
     /**
      * @var string
      */
-    protected $language = null;
+    protected $language;
 
     /**
      * @param string $email
@@ -35,7 +35,7 @@ class RetrivePassword
     /**
      * @param string $email
      *
-     * @return \Millennium\Soap\RetrivePassword
+     * @return RetrivePassword
      */
     public function setEmail($email)
     {
@@ -55,7 +55,7 @@ class RetrivePassword
     /**
      * @param string $language
      *
-     * @return \Millennium\Soap\RetrivePassword
+     * @return RetrivePassword
      */
     public function setLanguage($language)
     {

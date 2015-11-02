@@ -7,77 +7,77 @@ class ScanHeader extends BaseDTO
     /**
      * @var bool
      */
-    protected $AvailableOnFriday = null;
+    protected $AvailableOnFriday;
 
     /**
      * @var bool
      */
-    protected $AvailableOnMonday = null;
+    protected $AvailableOnMonday;
 
     /**
      * @var bool
      */
-    protected $AvailableOnSaturday = null;
+    protected $AvailableOnSaturday;
 
     /**
      * @var bool
      */
-    protected $AvailableOnSunday = null;
+    protected $AvailableOnSunday;
 
     /**
      * @var bool
      */
-    protected $AvailableOnThursday = null;
+    protected $AvailableOnThursday;
 
     /**
      * @var bool
      */
-    protected $AvailableOnTuesday = null;
+    protected $AvailableOnTuesday;
 
     /**
      * @var bool
      */
-    protected $AvailableOnWednesday = null;
+    protected $AvailableOnWednesday;
 
     /**
      * @var \DateTime
      */
-    protected $FromDateTime = null;
+    protected $FromDateTime;
 
     /**
      * @var int
      */
-    protected $MinimumHoursForBooking = null;
+    protected $MinimumHoursForBooking;
 
     /**
      * @var int
      */
-    protected $NumberOfChoices = null;
+    protected $NumberOfChoices;
 
     /**
      * @var ArrayOfScanDetail
      */
-    protected $ScanDetails = null;
+    protected $ScanDetails;
 
     /**
      * @var \DateTime
      */
-    protected $ToDateTime = null;
+    protected $ToDateTime;
 
     /**
      * @var bool
      */
-    protected $UseExactOrder = null;
+    protected $UseExactOrder;
 
     /**
      * @var bool
      */
-    protected $UseMasking = null;
+    protected $UseMasking;
 
     /**
      * @var int
      */
-    protected $WaitTime = null;
+    protected $WaitTime;
 
     public function __construct()
     {
@@ -94,7 +94,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $AvailableOnFriday
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setAvailableOnFriday($AvailableOnFriday)
     {
@@ -114,7 +114,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $AvailableOnMonday
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setAvailableOnMonday($AvailableOnMonday)
     {
@@ -134,7 +134,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $AvailableOnSaturday
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setAvailableOnSaturday($AvailableOnSaturday)
     {
@@ -154,7 +154,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $AvailableOnSunday
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setAvailableOnSunday($AvailableOnSunday)
     {
@@ -174,7 +174,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $AvailableOnThursday
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setAvailableOnThursday($AvailableOnThursday)
     {
@@ -194,7 +194,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $AvailableOnTuesday
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setAvailableOnTuesday($AvailableOnTuesday)
     {
@@ -214,7 +214,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $AvailableOnWednesday
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setAvailableOnWednesday($AvailableOnWednesday)
     {
@@ -242,7 +242,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param \DateTime $FromDateTime
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setFromDateTime(\DateTime $FromDateTime = null)
     {
@@ -266,7 +266,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param int $MinimumHoursForBooking
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setMinimumHoursForBooking($MinimumHoursForBooking)
     {
@@ -286,7 +286,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param int $NumberOfChoices
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setNumberOfChoices($NumberOfChoices)
     {
@@ -306,7 +306,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param ArrayOfScanDetail $ScanDetails
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setScanDetails($ScanDetails)
     {
@@ -334,7 +334,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param \DateTime $ToDateTime
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setToDateTime(\DateTime $ToDateTime = null)
     {
@@ -358,7 +358,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $UseExactOrder
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setUseExactOrder($UseExactOrder)
     {
@@ -378,7 +378,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param bool $UseMasking
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setUseMasking($UseMasking)
     {
@@ -398,7 +398,7 @@ class ScanHeader extends BaseDTO
     /**
      * @param int $WaitTime
      *
-     * @return \Millennium\Soap\ScanHeader
+     * @return ScanHeader
      */
     public function setWaitTime($WaitTime)
     {

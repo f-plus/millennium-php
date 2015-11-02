@@ -7,17 +7,17 @@ class Location
     /**
      * @var string
      */
-    protected $DataPath = null;
+    protected $DataPath;
 
     /**
      * @var int
      */
-    protected $Id = null;
+    protected $Id;
 
     /**
      * @var string
      */
-    protected $Name = null;
+    protected $Name;
 
     public function __construct()
     {
@@ -34,7 +34,7 @@ class Location
     /**
      * @param string $DataPath
      *
-     * @return \Millennium\Soap\Location
+     * @return Location
      */
     public function setDataPath($DataPath)
     {
@@ -54,7 +54,7 @@ class Location
     /**
      * @param int $Id
      *
-     * @return \Millennium\Soap\Location
+     * @return Location
      */
     public function setId($Id)
     {
@@ -74,7 +74,7 @@ class Location
     /**
      * @param string $Name
      *
-     * @return \Millennium\Soap\Location
+     * @return Location
      */
     public function setName($Name)
     {

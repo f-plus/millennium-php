@@ -7,7 +7,7 @@ class LogOffResponse
     /**
      * @var bool
      */
-    protected $LogOffResult = null;
+    protected $LogOffResult;
 
     /**
      * @param bool $LogOffResult
@@ -28,7 +28,7 @@ class LogOffResponse
     /**
      * @param bool $LogOffResult
      *
-     * @return \Millennium\Soap\LogOffResponse
+     * @return LogOffResponse
      */
     public function setLogOffResult($LogOffResult)
     {

@@ -7,77 +7,77 @@ class ClientHistory
     /**
      * @var int
      */
-    protected $AppointmentTypeId = null;
+    protected $AppointmentTypeId;
 
     /**
      * @var int
      */
-    protected $ClientId = null;
+    protected $ClientId;
 
     /**
      * @var \DateTime
      */
-    protected $DateTime = null;
+    protected $DateTime;
 
     /**
      * @var string
      */
-    protected $Description = null;
+    protected $Description;
 
     /**
      * @var int
      */
-    protected $EmployeeId = null;
+    protected $EmployeeId;
 
     /**
      * @var string
      */
-    protected $EmployeeName = null;
+    protected $EmployeeName;
 
     /**
      * @var int
      */
-    protected $HeaderId = null;
+    protected $HeaderId;
 
     /**
      * @var string
      */
-    protected $InvoiceNumber = null;
+    protected $InvoiceNumber;
 
     /**
      * @var int
      */
-    protected $PackageId = null;
+    protected $PackageId;
 
     /**
      * @var int
      */
-    protected $PrdSvrId = null;
+    protected $PrdSvrId;
 
     /**
      * @var float
      */
-    protected $Price = null;
+    protected $Price;
 
     /**
      * @var float
      */
-    protected $Quantity = null;
+    protected $Quantity;
 
     /**
      * @var int
      */
-    protected $TransactionId = null;
+    protected $TransactionId;
 
     /**
      * @var string
      */
-    protected $Type = null;
+    protected $Type;
 
     /**
      * @var bool
      */
-    protected $Voided = null;
+    protected $Voided;
 
     public function __construct()
     {
@@ -94,7 +94,7 @@ class ClientHistory
     /**
      * @param int $AppointmentTypeId
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setAppointmentTypeId($AppointmentTypeId)
     {
@@ -114,7 +114,7 @@ class ClientHistory
     /**
      * @param int $ClientId
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setClientId($ClientId)
     {
@@ -142,7 +142,7 @@ class ClientHistory
     /**
      * @param \DateTime $DateTime
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setDateTime(\DateTime $DateTime = null)
     {
@@ -166,7 +166,7 @@ class ClientHistory
     /**
      * @param string $Description
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setDescription($Description)
     {
@@ -186,7 +186,7 @@ class ClientHistory
     /**
      * @param int $EmployeeId
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setEmployeeId($EmployeeId)
     {
@@ -206,7 +206,7 @@ class ClientHistory
     /**
      * @param string $EmployeeName
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setEmployeeName($EmployeeName)
     {
@@ -226,7 +226,7 @@ class ClientHistory
     /**
      * @param int $HeaderId
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setHeaderId($HeaderId)
     {
@@ -246,7 +246,7 @@ class ClientHistory
     /**
      * @param string $InvoiceNumber
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setInvoiceNumber($InvoiceNumber)
     {
@@ -266,7 +266,7 @@ class ClientHistory
     /**
      * @param int $PackageId
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setPackageId($PackageId)
     {
@@ -286,7 +286,7 @@ class ClientHistory
     /**
      * @param int $PrdSvrId
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setPrdSvrId($PrdSvrId)
     {
@@ -306,7 +306,7 @@ class ClientHistory
     /**
      * @param float $Price
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setPrice($Price)
     {
@@ -326,7 +326,7 @@ class ClientHistory
     /**
      * @param float $Quantity
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setQuantity($Quantity)
     {
@@ -346,7 +346,7 @@ class ClientHistory
     /**
      * @param int $TransactionId
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setTransactionId($TransactionId)
     {
@@ -366,7 +366,7 @@ class ClientHistory
     /**
      * @param string $Type
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setType($Type)
     {
@@ -386,7 +386,7 @@ class ClientHistory
     /**
      * @param bool $Voided
      *
-     * @return \Millennium\Soap\ClientHistory
+     * @return ClientHistory
      */
     public function setVoided($Voided)
     {

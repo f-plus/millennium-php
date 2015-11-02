@@ -7,7 +7,7 @@ class ArrayOfstring
     /**
      * @var string[]
      */
-    protected $string = null;
+    protected $string;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfstring
     /**
      * @param string[] $string
      *
-     * @return \Millennium\Soap\ArrayOfstring
+     * @return ArrayOfstring
      */
     public function setString(array $string = null)
     {

@@ -7,7 +7,7 @@ class ArrayOfGCClient
     /**
      * @var GCClient[]
      */
-    protected $GCClient = null;
+    protected $GCClient;
 
     public function __construct()
     {
@@ -24,7 +24,7 @@ class ArrayOfGCClient
     /**
      * @param GCClient[] $GCClient
      *
-     * @return \Millennium\Soap\ArrayOfGCClient
+     * @return ArrayOfGCClient
      */
     public function setGCClient(array $GCClient = null)
     {

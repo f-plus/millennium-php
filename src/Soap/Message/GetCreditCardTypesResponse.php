@@ -7,7 +7,7 @@ class GetCrediCardTypesResponse
     /**
      * @var ArrayOfCreditCardType
      */
-    protected $GetCrediCardTypesResult = null;
+    protected $GetCrediCardTypesResult;
 
     /**
      * @param ArrayOfCreditCardType $GetCrediCardTypesResult
@@ -28,7 +28,7 @@ class GetCrediCardTypesResponse
     /**
      * @param ArrayOfCreditCardType $GetCrediCardTypesResult
      *
-     * @return \Millennium\Soap\GetCrediCardTypesResponse
+     * @return GetCrediCardTypesResponse
      */
     public function setGetCrediCardTypesResult($GetCrediCardTypesResult)
     {

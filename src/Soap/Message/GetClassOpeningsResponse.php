@@ -7,7 +7,7 @@ class GetClassOpeningsResponse
     /**
      * @var ArrayOfOpeningClass
      */
-    protected $GetClassOpeningsResult = null;
+    protected $GetClassOpeningsResult;
 
     /**
      * @param ArrayOfOpeningClass $GetClassOpeningsResult
@@ -28,7 +28,7 @@ class GetClassOpeningsResponse
     /**
      * @param ArrayOfOpeningClass $GetClassOpeningsResult
      *
-     * @return \Millennium\Soap\GetClassOpeningsResponse
+     * @return GetClassOpeningsResponse
      */
     public function setGetClassOpeningsResult($GetClassOpeningsResult)
     {

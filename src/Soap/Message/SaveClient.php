@@ -7,17 +7,17 @@ class SaveClient
     /**
      * @var Client
      */
-    protected $client = null;
+    protected $client;
 
     /**
      * @var ClientCard
      */
-    protected $clientCard = null;
+    protected $clientCard;
 
     /**
      * @var string
      */
-    protected $language = null;
+    protected $language;
 
     /**
      * @param Client     $client
@@ -42,7 +42,7 @@ class SaveClient
     /**
      * @param Client $client
      *
-     * @return \Millennium\Soap\SaveClient
+     * @return SaveClient
      */
     public function setClient($client)
     {
@@ -62,7 +62,7 @@ class SaveClient
     /**
      * @param ClientCard $clientCard
      *
-     * @return \Millennium\Soap\SaveClient
+     * @return SaveClient
      */
     public function setClientCard($clientCard)
     {
@@ -82,7 +82,7 @@ class SaveClient
     /**
      * @param string $language
      *
-     * @return \Millennium\Soap\SaveClient
+     * @return SaveClient
      */
     public function setLanguage($language)
     {

@@ -7,22 +7,22 @@ class GetAppointmentListing
     /**
      * @var int
      */
-    protected $clientId = null;
+    protected $clientId;
 
     /**
      * @var \DateTime
      */
-    protected $startDate = null;
+    protected $startDate;
 
     /**
      * @var \DateTime
      */
-    protected $endDate = null;
+    protected $endDate;
 
     /**
      * @var bool
      */
-    protected $rebookOnline = null;
+    protected $rebookOnline;
 
     /**
      * @param int       $clientId
@@ -49,7 +49,7 @@ class GetAppointmentListing
     /**
      * @param int $clientId
      *
-     * @return \Millennium\Soap\GetAppointmentListing
+     * @return GetAppointmentListing
      */
     public function setClientId($clientId)
     {
@@ -77,7 +77,7 @@ class GetAppointmentListing
     /**
      * @param \DateTime $startDate
      *
-     * @return \Millennium\Soap\GetAppointmentListing
+     * @return GetAppointmentListing
      */
     public function setStartDate(\DateTime $startDate)
     {
@@ -105,7 +105,7 @@ class GetAppointmentListing
     /**
      * @param \DateTime $endDate
      *
-     * @return \Millennium\Soap\GetAppointmentListing
+     * @return GetAppointmentListing
      */
     public function setEndDate(\DateTime $endDate)
     {
@@ -125,7 +125,7 @@ class GetAppointmentListing
     /**
      * @param bool $rebookOnline
      *
-     * @return \Millennium\Soap\GetAppointmentListing
+     * @return GetAppointmentListing
      */
     public function setRebookOnline($rebookOnline)
     {

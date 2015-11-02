@@ -7,167 +7,167 @@ class SalonInfo extends BaseDTO
     /**
      * @var string
      */
-    protected $Address1 = null;
+    protected $Address1;
 
     /**
      * @var string
      */
-    protected $Address2 = null;
+    protected $Address2;
 
     /**
      * @var string
      */
-    protected $AppointmentCaption = null;
+    protected $AppointmentCaption;
 
     /**
      * @var string
      */
-    protected $AppointmentCaptionMain = null;
+    protected $AppointmentCaptionMain;
 
     /**
      * @var int
      */
-    protected $AppointmentIncrement = null;
+    protected $AppointmentIncrement;
 
     /**
      * @var string
      */
-    protected $AreaCode = null;
+    protected $AreaCode;
 
     /**
      * @var string
      */
-    protected $AreaCodeFormat = null;
+    protected $AreaCodeFormat;
 
     /**
      * @var bool
      */
-    protected $BookClassesOnly = null;
+    protected $BookClassesOnly;
 
     /**
      * @var bool
      */
-    protected $BookPackagesOnly = null;
+    protected $BookPackagesOnly;
 
     /**
      * @var string
      */
-    protected $City = null;
+    protected $City;
 
     /**
      * @var string
      */
-    protected $ClientCaption = null;
+    protected $ClientCaption;
 
     /**
      * @var int
      */
-    protected $ClientIdentifier = null;
+    protected $ClientIdentifier;
 
     /**
      * @var string
      */
-    protected $CompanyEmail = null;
+    protected $CompanyEmail;
 
     /**
      * @var string
      */
-    protected $CompanyName = null;
+    protected $CompanyName;
 
     /**
      * @var string
      */
-    protected $EmployeeCaption = null;
+    protected $EmployeeCaption;
 
     /**
      * @var string
      */
-    protected $FaxArea = null;
+    protected $FaxArea;
 
     /**
      * @var string
      */
-    protected $FaxPhone = null;
+    protected $FaxPhone;
 
     /**
      * @var DayOfWeek
      */
-    protected $FirstDayOfWeek = null;
+    protected $FirstDayOfWeek;
 
     /**
      * @var string
      */
-    protected $GCCaption = null;
+    protected $GCCaption;
 
     /**
      * @var bool
      */
-    protected $HasClassBooking = null;
+    protected $HasClassBooking;
 
     /**
-     * @var ArrayOfKeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
+     * @var HoursOfOperationMap
      */
-    protected $HoursOfOperation = null;
+    protected $HoursOfOperation;
 
     /**
      * @var string
      */
-    protected $ImagePath = null;
+    protected $ImagePath;
 
     /**
      * @var ArrayOfLocation
      */
-    protected $Locations = null;
+    protected $Locations;
 
     /**
      * @var OnlineBookingConfig
      */
-    protected $OnlineBookingConfig = null;
+    protected $OnlineBookingConfig;
 
     /**
      * @var string
      */
-    protected $PackageSeriesCaption = null;
+    protected $PackageSeriesCaption;
 
     /**
      * @var string
      */
-    protected $PhoneFormat = null;
+    protected $PhoneFormat;
 
     /**
      * @var string
      */
-    protected $PhoneNumber = null;
+    protected $PhoneNumber;
 
     /**
      * @var string
      */
-    protected $ServiceCaption = null;
+    protected $ServiceCaption;
 
     /**
      * @var bool
      */
-    protected $ShowPricesWithTax = null;
+    protected $ShowPricesWithTax;
 
     /**
      * @var string
      */
-    protected $State = null;
+    protected $State;
 
     /**
      * @var int
      */
-    protected $TaxType = null;
+    protected $TaxType;
 
     /**
      * @var string
      */
-    protected $WebSite = null;
+    protected $WebSite;
 
     /**
      * @var string
      */
-    protected $ZipCode = null;
+    protected $ZipCode;
 
     public function __construct()
     {
@@ -184,7 +184,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $Address1
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setAddress1($Address1)
     {
@@ -204,7 +204,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $Address2
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setAddress2($Address2)
     {
@@ -224,7 +224,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $AppointmentCaption
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setAppointmentCaption($AppointmentCaption)
     {
@@ -244,7 +244,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $AppointmentCaptionMain
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setAppointmentCaptionMain($AppointmentCaptionMain)
     {
@@ -264,7 +264,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param int $AppointmentIncrement
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setAppointmentIncrement($AppointmentIncrement)
     {
@@ -284,7 +284,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $AreaCode
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setAreaCode($AreaCode)
     {
@@ -304,7 +304,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $AreaCodeFormat
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setAreaCodeFormat($AreaCodeFormat)
     {
@@ -324,7 +324,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param bool $BookClassesOnly
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setBookClassesOnly($BookClassesOnly)
     {
@@ -344,7 +344,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param bool $BookPackagesOnly
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setBookPackagesOnly($BookPackagesOnly)
     {
@@ -364,7 +364,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $City
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setCity($City)
     {
@@ -384,7 +384,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $ClientCaption
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setClientCaption($ClientCaption)
     {
@@ -404,7 +404,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param int $ClientIdentifier
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setClientIdentifier($ClientIdentifier)
     {
@@ -424,7 +424,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $CompanyEmail
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setCompanyEmail($CompanyEmail)
     {
@@ -444,7 +444,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $CompanyName
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setCompanyName($CompanyName)
     {
@@ -464,7 +464,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $EmployeeCaption
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setEmployeeCaption($EmployeeCaption)
     {
@@ -484,7 +484,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $FaxArea
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setFaxArea($FaxArea)
     {
@@ -504,7 +504,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $FaxPhone
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setFaxPhone($FaxPhone)
     {
@@ -524,7 +524,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param DayOfWeek $FirstDayOfWeek
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setFirstDayOfWeek($FirstDayOfWeek)
     {
@@ -544,7 +544,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $GCCaption
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setGCCaption($GCCaption)
     {
@@ -564,7 +564,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param bool $HasClassBooking
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setHasClassBooking($HasClassBooking)
     {
@@ -574,7 +574,7 @@ class SalonInfo extends BaseDTO
     }
 
     /**
-     * @return ArrayOfKeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r
+     * @return HoursOfOperationMap
      */
     public function getHoursOfOperation()
     {
@@ -582,9 +582,9 @@ class SalonInfo extends BaseDTO
     }
 
     /**
-     * @param ArrayOfKeyValueOfDayOfWeekDailyHoursOfOperationCru9Uj6r $HoursOfOperation
+     * @param HoursOfOperationMap $HoursOfOperation
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setHoursOfOperation($HoursOfOperation)
     {
@@ -604,7 +604,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $ImagePath
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setImagePath($ImagePath)
     {
@@ -624,7 +624,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param ArrayOfLocation $Locations
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setLocations($Locations)
     {
@@ -644,7 +644,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param OnlineBookingConfig $OnlineBookingConfig
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setOnlineBookingConfig($OnlineBookingConfig)
     {
@@ -664,7 +664,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $PackageSeriesCaption
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setPackageSeriesCaption($PackageSeriesCaption)
     {
@@ -684,7 +684,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $PhoneFormat
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setPhoneFormat($PhoneFormat)
     {
@@ -704,7 +704,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $PhoneNumber
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -724,7 +724,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $ServiceCaption
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setServiceCaption($ServiceCaption)
     {
@@ -744,7 +744,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param bool $ShowPricesWithTax
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setShowPricesWithTax($ShowPricesWithTax)
     {
@@ -764,7 +764,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $State
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setState($State)
     {
@@ -784,7 +784,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param int $TaxType
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setTaxType($TaxType)
     {
@@ -804,7 +804,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $WebSite
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setWebSite($WebSite)
     {
@@ -824,7 +824,7 @@ class SalonInfo extends BaseDTO
     /**
      * @param string $ZipCode
      *
-     * @return \Millennium\Soap\SalonInfo
+     * @return SalonInfo
      */
     public function setZipCode($ZipCode)
     {
