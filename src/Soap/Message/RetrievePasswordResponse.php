@@ -2,7 +2,7 @@
 
 namespace FPlus\Millennium\Soap\Message;
 
-class RetrivePasswordResponse
+class RetrievePasswordResponse
 {
     /**
      * @var bool
@@ -10,29 +10,29 @@ class RetrivePasswordResponse
     protected $RetrivePasswordResult;
 
     /**
-     * @param bool $RetrivePasswordResult
+     * @param bool $RetrievePasswordResult
      */
-    public function __construct($RetrivePasswordResult)
+    public function __construct($RetrievePasswordResult)
     {
-        $this->RetrivePasswordResult = $RetrivePasswordResult;
+        $this->RetrivePasswordResult = $RetrievePasswordResult;
     }
 
     /**
      * @return bool
      */
-    public function getRetrivePasswordResult()
+    public function getRetrievePasswordResult()
     {
         return $this->RetrivePasswordResult;
     }
 
     /**
-     * @param bool $RetrivePasswordResult
+     * @param bool $RetrievePasswordResult
      *
-     * @return RetrivePasswordResponse
+     * @return RetrievePasswordResponse
      */
-    public function setRetrivePasswordResult($RetrivePasswordResult)
+    public function setRetrievePasswordResult($RetrievePasswordResult)
     {
-        $this->RetrivePasswordResult = $RetrivePasswordResult;
+        $this->RetrivePasswordResult = $RetrievePasswordResult;
 
         return $this;
     }

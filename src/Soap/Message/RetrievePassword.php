@@ -2,7 +2,7 @@
 
 namespace FPlus\Millennium\Soap\Message;
 
-class RetrivePassword
+class RetrievePassword
 {
     /**
      * @var string
@@ -35,7 +35,7 @@ class RetrivePassword
     /**
      * @param string $email
      *
-     * @return RetrivePassword
+     * @return RetrievePassword
      */
     public function setEmail($email)
     {
@@ -55,7 +55,7 @@ class RetrivePassword
     /**
      * @param string $language
      *
-     * @return RetrivePassword
+     * @return RetrievePassword
      */
     public function setLanguage($language)
     {
