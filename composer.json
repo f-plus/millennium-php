@@ -10,6 +10,13 @@
     "harms"
   ],
   "license": "MIT",
+  "authors": [
+    {
+      "name": "f-plus",
+      "email": "slnmtrx@gmail.com",
+      "homepage": "https://github.com/f-plus"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "FPlus\\Millennium\\": "src/"
