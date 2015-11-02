@@ -30,13 +30,13 @@ class ClientHistoryMap implements \IteratorAggregate
      */
     public function setPairs(array $Pairs = null)
     {
-        $this->KeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ = $Pairs
+        $this->KeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ = $Pairs;
 
         return $this;
     }
-	
-	public function getIterator()
-	{
-		return new MapIterator($this->KeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ);
-	}
+
+    public function getIterator()
+    {
+        return new MapIterator($this->KeyValueOfdateTimeArrayOfClientHistoryabPHSVWZ);
+    }
 }
