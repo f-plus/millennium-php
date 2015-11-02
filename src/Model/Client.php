@@ -489,13 +489,9 @@ class Client extends BaseDTO
     public function getAnniversaryDate()
     {
         if ($this->AnniversaryDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->AnniversaryDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->AnniversaryDate);
         }
     }
 
@@ -521,13 +517,9 @@ class Client extends BaseDTO
     public function getBirthday()
     {
         if ($this->Birthday == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->Birthday);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->Birthday);
         }
     }
 
@@ -953,13 +945,9 @@ class Client extends BaseDTO
     public function getDateCreated()
     {
         if ($this->DateCreated == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->DateCreated);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->DateCreated);
         }
     }
 
@@ -1165,13 +1153,9 @@ class Client extends BaseDTO
     public function getFirstVisitDate()
     {
         if ($this->FirstVisitDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->FirstVisitDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->FirstVisitDate);
         }
     }
 
@@ -1457,13 +1441,9 @@ class Client extends BaseDTO
     public function getLastChangedDateTime()
     {
         if ($this->LastChangedDateTime == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->LastChangedDateTime);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->LastChangedDateTime);
         }
     }
 
@@ -1509,13 +1489,9 @@ class Client extends BaseDTO
     public function getLastVisitDate()
     {
         if ($this->LastVisitDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->LastVisitDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->LastVisitDate);
         }
     }
 
@@ -1561,13 +1537,9 @@ class Client extends BaseDTO
     public function getMemberExpirationDate()
     {
         if ($this->MemberExpirationDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->MemberExpirationDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->MemberExpirationDate);
         }
     }
 
@@ -1593,13 +1565,9 @@ class Client extends BaseDTO
     public function getMemberSince()
     {
         if ($this->MemberSince == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->MemberSince);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->MemberSince);
         }
     }
 
@@ -1745,13 +1713,9 @@ class Client extends BaseDTO
     public function getNextPaymentDate()
     {
         if ($this->NextPaymentDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->NextPaymentDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->NextPaymentDate);
         }
     }
 

@@ -129,13 +129,9 @@ class GC extends BaseDTO
     public function getExpiresOn()
     {
         if ($this->ExpiresOn == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->ExpiresOn);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->ExpiresOn);
         }
     }
 
@@ -381,13 +377,9 @@ class GC extends BaseDTO
     public function getValidFrom()
     {
         if ($this->ValidFrom == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->ValidFrom);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->ValidFrom);
         }
     }
 

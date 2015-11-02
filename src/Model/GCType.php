@@ -64,13 +64,9 @@ class GCType extends BaseDTO
     public function getCreatedOn()
     {
         if ($this->CreatedOn == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->CreatedOn);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->CreatedOn);
         }
     }
 
@@ -196,13 +192,9 @@ class GCType extends BaseDTO
     public function getLastChanged()
     {
         if ($this->LastChanged == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->LastChanged);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->LastChanged);
         }
     }
 
@@ -268,13 +260,9 @@ class GCType extends BaseDTO
     public function getValidFrom()
     {
         if ($this->ValidFrom == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->ValidFrom);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->ValidFrom);
         }
     }
 

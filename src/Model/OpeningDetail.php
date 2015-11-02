@@ -229,13 +229,9 @@ class OpeningDetail extends BaseDTO
     public function getEndDateTime()
     {
         if ($this->EndDateTime == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->EndDateTime);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->EndDateTime);
         }
     }
 
@@ -461,13 +457,9 @@ class OpeningDetail extends BaseDTO
     public function getStartDateTime()
     {
         if ($this->StartDateTime == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->StartDateTime);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->StartDateTime);
         }
     }
 

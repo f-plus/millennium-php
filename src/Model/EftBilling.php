@@ -54,13 +54,9 @@ class EftBilling extends BaseDTO
     public function getHitDate()
     {
         if ($this->HitDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->HitDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->HitDate);
         }
     }
 

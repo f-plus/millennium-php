@@ -194,13 +194,9 @@ class MembershipSaleDetail extends BaseDTO
     public function getCancelDate()
     {
         if ($this->CancelDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->CancelDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->CancelDate);
         }
     }
 
@@ -806,13 +802,9 @@ class MembershipSaleDetail extends BaseDTO
     public function getTerminationDate()
     {
         if ($this->TerminationDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->TerminationDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->TerminationDate);
         }
     }
 

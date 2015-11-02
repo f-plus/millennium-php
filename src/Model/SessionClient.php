@@ -71,13 +71,9 @@ class SessionClient
     public function getConnectedOn()
     {
         if ($this->ConnectedOn == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->ConnectedOn);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->ConnectedOn);
         }
     }
 
@@ -123,13 +119,9 @@ class SessionClient
     public function getExpireOn()
     {
         if ($this->ExpireOn == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->ExpireOn);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->ExpireOn);
         }
     }
 

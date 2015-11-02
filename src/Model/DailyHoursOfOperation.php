@@ -49,13 +49,9 @@ class DailyHoursOfOperation
     public function getTimeClose()
     {
         if ($this->TimeClose == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->TimeClose);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->TimeClose);
         }
     }
 
@@ -81,13 +77,9 @@ class DailyHoursOfOperation
     public function getTimeOpen()
     {
         if ($this->TimeOpen == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->TimeOpen);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->TimeOpen);
         }
     }
 

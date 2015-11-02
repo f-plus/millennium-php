@@ -229,13 +229,9 @@ class ScanHeader extends BaseDTO
     public function getFromDateTime()
     {
         if ($this->FromDateTime == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->FromDateTime);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->FromDateTime);
         }
     }
 
@@ -321,13 +317,9 @@ class ScanHeader extends BaseDTO
     public function getToDateTime()
     {
         if ($this->ToDateTime == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->ToDateTime);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->ToDateTime);
         }
     }
 

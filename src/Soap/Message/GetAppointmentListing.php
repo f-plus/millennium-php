@@ -64,13 +64,9 @@ class GetAppointmentListing
     public function getStartDate()
     {
         if ($this->startDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->startDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->startDate);
         }
     }
 
@@ -92,13 +88,9 @@ class GetAppointmentListing
     public function getEndDate()
     {
         if ($this->endDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->endDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->endDate);
         }
     }
 

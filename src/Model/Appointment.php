@@ -94,13 +94,9 @@ class Appointment extends BaseDTO
     public function getAppointmentDate()
     {
         if ($this->AppointmentDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->AppointmentDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->AppointmentDate);
         }
     }
 
@@ -166,13 +162,9 @@ class Appointment extends BaseDTO
     public function getBookedOn()
     {
         if ($this->BookedOn == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->BookedOn);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->BookedOn);
         }
     }
 
@@ -298,13 +290,9 @@ class Appointment extends BaseDTO
     public function getLastChanged()
     {
         if ($this->LastChanged == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->LastChanged);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->LastChanged);
         }
     }
 

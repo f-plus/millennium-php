@@ -129,13 +129,9 @@ class ClientHistory
     public function getDateTime()
     {
         if ($this->DateTime == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->DateTime);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->DateTime);
         }
     }
 

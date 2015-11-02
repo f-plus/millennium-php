@@ -20,13 +20,9 @@ class DateKeyValuePair extends KeyValuePair
     public function getKey()
     {
         if ($this->Key == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->Key);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->Key);
         }
     }
 

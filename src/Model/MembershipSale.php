@@ -109,13 +109,9 @@ class MembershipSale extends BaseDTO
     public function getAutoRenewBegins()
     {
         if ($this->AutoRenewBegins == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->AutoRenewBegins);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->AutoRenewBegins);
         }
     }
 
@@ -221,13 +217,9 @@ class MembershipSale extends BaseDTO
     public function getExpirationDate()
     {
         if ($this->ExpirationDate == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->ExpirationDate);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->ExpirationDate);
         }
     }
 

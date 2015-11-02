@@ -619,13 +619,9 @@ class AppointmentDetail
     public function getStartTime()
     {
         if ($this->StartTime == null) {
-            return;
+            return null;
         } else {
-            try {
-                return new \DateTime($this->StartTime);
-            } catch (\Exception $e) {
-                return false;
-            }
+            return new \DateTime($this->StartTime);
         }
     }
 
