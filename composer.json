@@ -21,6 +21,9 @@
     }
   },
   "require": {
-    "ext-soap": "*"
+    "ext-soap": "*",
+    "casperbiering/dotnet-binary-xml": "dev-master",
+    "besimple/soap-client": "^0.2.6",
+    "ramsey/uuid": "^3.0"
   }
 }

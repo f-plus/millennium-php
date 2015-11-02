@@ -2,8 +2,12 @@
 
 namespace FPlus\Millennium\Model;
 
+use Ramsey\Uuid\Uuid;
+
 class SessionClient
 {
+    const DATETIME_DEFAULT = '0001-01-01T00:00:00.0';
+
     /**
      * @var int
      */
@@ -28,6 +32,18 @@ class SessionClient
      * @var string
      */
     protected $Id;
+
+    public static function createWithDefaults()
+    {
+        $result = new self();
+        $result->ClientId = '0';
+        $result->ConnectedOn = self::DATETIME_DEFAULT;
+        $result->DataPath = '';
+        $result->ExpireOn = self::DATETIME_DEFAULT;
+        $result->Id = Uuid::uuid4()->toString();
+
+        return $result;
+    }
 
     /**
      * @return int
