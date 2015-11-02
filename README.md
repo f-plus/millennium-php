@@ -1,6 +1,8 @@
 # millennium-php
 
 [![Build Status](https://travis-ci.org/f-plus/millennium-php.png?branch=master)](https://travis-ci.org/f-plus/millennium-php)
+[![Latest Stable Version](https://poser.pugx.org/f-plus/millennium-php/version)](https://packagist.org/packages/f-plus/millennium-php)
+[![License](https://poser.pugx.org/f-plus/millennium-php/license)](https://packagist.org/packages/f-plus/millennium-php)
 
 **millennium-php** is a PHP client for the online booking system of [Harms Millennium Spa & Salon](http://www.harms-software.com/millennium/spasalon/).
 
